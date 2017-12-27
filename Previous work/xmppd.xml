@@ -1,0 +1,17 @@
+
+<server>
+    <servernames>
+        <name>localhost.com</name>
+    </servernames>
+    <certificate file="xmppd.pem"/>
+    <plugins>
+        <MUC jid="muc.localhost.com" name="SPADE MUC Component"/>
+        <WQ jid="wq.localhost.com" name="SPADE Workgroup Queues"/>
+    </plugins>
+    <components>
+        <AMS jid="ams.localhost.com" name="AMS" username="ams" password="tZEKuxzT"/>
+        <DF jid="df.localhost.com" name="DF" username="df" password="gBnfSfQo"/>
+        <ACC jid="acc.localhost.com" name="ACC" username="acc" password="vEASPLFQ"/>
+    </components>
+</server>
+        

@@ -1,0 +1,79 @@
+# What is oraculo?
+
+Oraculo is forecast system that aims to predict stocks movement, using all available data present on the web and top notch machine learning algorithms.
+
+It's aim is not to be 100% accurate, rather to be more than 50% accurate, in order to provide a realistic but real gain to the user. 
+
+# What technology does Oraculo uses?
+
+It is a web-based system, backend in Python, with heavy machine learning toolkit usage, and front end in Angular. Front end has only the purpose of presenting the data, by itself it does not do calculations. It uses D3.js for graphics rendering. Database is NOSQL and distributed to handle the huge amount of data being dealt.
+
+Due to the huge amount of data gathered, there is a limited amount of peeking into past we can look at. We keep the lessons learned, but not all the data the lessons were learnt from.
+
+# What is this amazing algorithm that can predict things?
+
+It is a heavy combination (or ensemble) of popular algorithms, such as Naive Bayes, Support Vector Machines and Neural Networks. It is somewhat inspired by the Master Algorithm described by Pedro Domingos in his book by the same name
+
+# Which data is used?
+
+We've tried to gather as many dimensions as possible into the estimation problem. Our goal is to work with minimum 50 dimensions.
+
+Looking at the graph only, inspired by technical analysis, we look at patterns such as 
+- day of the week
+- month of the year
+- sudden ascents or descents
+- performance in the last days
+- performance in the last weeks
+- performance in the last months
+
+We also look at environmental issues, that might affect human psychology
+- is it raining that day?
+- what is the temperature like?
+- is it very close to a holiday?
+- is it school's vacation period (are the kids at home) ?
+
+We look at economy indicators
+Not the ones in the day, but the prediction at that point time
+The goal is to gauge the overall confidence or lack of it in the economy at that point in time
+- Main Interest Rate prediction
+- Employment / Unemployment Rate
+- Industry indicators
+- Overall stock market ascent/decline
+
+Finally, and the most important, we look at specific data from the compan being evaluated:
+- industry
+- position in the industry relative to peers
+- overall valuation
+- stock markets it operats in 
+- overall fundamental analysis data
+
+We also look at how the major players are faring on that particular day, or the day before it
+- banks ascent/descent on market price
+- investors predicted profit for the quarter (*it may tell if they are looking to sell or buy in that period)
+
+One last thing but not less important is overall sentiment on that
+- sentiment analysis on social media, such as twitter
+- sentiment analysis on reported news
+
+A combination of all this dimensions is fed into different algorithms, and the outcome is a prediction of what will happen to that stock on that current day.
+
+# Where does the data come from?
+
+Since there are several data, they need come from several sources. Indirect marketed related data comes from weather reports, news, twitter, facebook, official sources such as central bank, investment shops, specialists. Company data comes from either investment shops and/or specialists or from the stock market. Finally, stock data comes from the stock market
+
+# What is the process of cleaning and treating that data?
+
+That certainly is the hardest part. A lot of the data comes in as unstructured data, and needs to be scrapped from web. Some comes from an API. Some are just be downloaded as text, and also needs to be scrapped.
+
+All this data is cleaned before entering a database, that consolidates it all under one hood. The computations are performed on the data stored at this database, and the lessons learned from the computation are stored in another database, which is hooked to the front end and present the results in a nice understandable manner.
+
+# What are your plans for the future
+
+Right now we just present the raw results, without much treatment. We want a full interface a customer can interact with. Upon that we will charge a monthly amount for users who want to access our content. This data is not to be shared: we can track down IPs and usage pattern to find out accounts that are being shared by more than one user.
+
+
+
+
+
+
+

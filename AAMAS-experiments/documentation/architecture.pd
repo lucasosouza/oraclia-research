@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project PDTVersion="0.3.2">
+<JACKCodePool IMemento.internal.id="11530" PoolType="148">
+<CodeEntity IMemento.internal.id="8340" cellID="7938" modifier="1"/>
+</JACKCodePool>
+<RelationPool IMemento.internal.id="10506" PoolType="5">
+<Relation DST="17409" IMemento.internal.id="35333" Prominence="0" RelationType="1073741829" SRC="25089"/>
+<Relation DST="40961" IMemento.internal.id="59397" Prominence="0" RelationType="-2147483648" SRC="48641"/>
+<Relation DST="48641" IMemento.internal.id="58629" Prominence="0" RelationType="-2147483648" SRC="24321"/>
+<Relation DST="21249" IMemento.internal.id="21765" Prominence="0" RelationType="1073741830" SRC="20993"/>
+<Relation DST="17921" IMemento.internal.id="33797" Prominence="0" RelationType="1073741829" SRC="25089"/>
+<Relation DST="86785" IMemento.internal.id="93957" Prominence="0" RelationType="-2147483648" SRC="23553"/>
+<Relation DST="17409" IMemento.internal.id="69125" Prominence="0" RelationType="1073741828" SRC="44545"/>
+<Relation DST="88833" IMemento.internal.id="93189" Prominence="0" RelationType="-2147483648" SRC="42497"/>
+<Relation DST="16385" IMemento.internal.id="19461" Prominence="0" RelationType="16" SRC="12289"/>
+<Relation DST="37889" IMemento.internal.id="92421" Prominence="0" RelationType="-2147483648" SRC="88833"/>
+<Relation DST="13313" IMemento.internal.id="55557" Prominence="0" RelationType="1073741828" SRC="47617"/>
+<Relation DST="17921" IMemento.internal.id="67589" Prominence="0" RelationType="1073741828" SRC="44545"/>
+<Relation DST="42497" IMemento.internal.id="91653" Prominence="0" RelationType="-2147483648" SRC="85761"/>
+<Relation DST="47617" IMemento.internal.id="54789" Prominence="0" RelationType="-2147483648" SRC="23553"/>
+<Relation DST="42497" IMemento.internal.id="90885" Prominence="0" RelationType="-2147483648" SRC="87809"/>
+<Relation DST="40449" IMemento.internal.id="41989" Prominence="0" RelationType="-2147483648" SRC="25089"/>
+<Relation DST="40449" IMemento.internal.id="66053" Prominence="0" RelationType="-2147483648" SRC="45569"/>
+<Relation DST="23553" IMemento.internal.id="29189" Prominence="0" RelationType="1073741829" SRC="26113"/>
+<Relation DST="42497" IMemento.internal.id="90117" Prominence="0" RelationType="-2147483648" SRC="86785"/>
+<Relation DST="13825" IMemento.internal.id="52485" Prominence="0" RelationType="1073741828" SRC="46593"/>
+<Relation DST="12289" IMemento.internal.id="64517" Prominence="0" RelationType="1073741828" SRC="45569"/>
+<Relation DST="87809" IMemento.internal.id="88581" Prominence="0" RelationType="1073741825" SRC="46593"/>
+<Relation DST="13825" IMemento.internal.id="14853" Prominence="0" RelationType="16" SRC="11777"/>
+<Relation DST="40961" IMemento.internal.id="75781" Prominence="0" RelationType="-2147483648" SRC="71937"/>
+<Relation DST="45569" IMemento.internal.id="62981" Prominence="0" RelationType="1073741827" SRC="25089"/>
+<Relation DST="40961" IMemento.internal.id="75013" Prominence="0" RelationType="-2147483648" SRC="70913"/>
+<Relation DST="12801" IMemento.internal.id="50181" Prominence="0" RelationType="1073741828" SRC="46593"/>
+<Relation DST="40961" IMemento.internal.id="62213" Prominence="0" RelationType="-2147483648" SRC="43521"/>
+<Relation DST="40961" IMemento.internal.id="74245" Prominence="0" RelationType="-2147483648" SRC="72961"/>
+<Relation DST="13313" IMemento.internal.id="37381" Prominence="0" RelationType="1073741829" SRC="26113"/>
+<Relation DST="43521" IMemento.internal.id="61445" Prominence="0" RelationType="-2147483648" SRC="24321"/>
+<Relation DST="71937" IMemento.internal.id="72709" Prominence="0" RelationType="1073741825" SRC="43521"/>
+<Relation DST="12801" IMemento.internal.id="35845" Prominence="0" RelationType="1073741829" SRC="26113"/>
+<Relation DST="22529" IMemento.internal.id="23045" Prominence="0" RelationType="1073741830" SRC="22273"/>
+<Relation DST="15873" IMemento.internal.id="59141" Prominence="0" RelationType="1073741828" SRC="48641"/>
+<Relation DST="12289" IMemento.internal.id="34309" Prominence="0" RelationType="1073741829" SRC="25089"/>
+<Relation DST="80897" IMemento.internal.id="94469" Prominence="0" RelationType="-2147483648" SRC="40449"/>
+<Relation DST="48641" IMemento.internal.id="57605" Prominence="0" RelationType="1073741827" SRC="27137"/>
+<Relation DST="38657" IMemento.internal.id="69637" Prominence="0" RelationType="-2147483648" SRC="44545"/>
+<Relation DST="80897" IMemento.internal.id="81669" Prominence="0" RelationType="1073741825" SRC="45569"/>
+<Relation DST="15873" IMemento.internal.id="32773" Prominence="0" RelationType="1073741829" SRC="27137"/>
+<Relation DST="42497" IMemento.internal.id="56837" Prominence="0" RelationType="-2147483648" SRC="47617"/>
+<Relation DST="17409" IMemento.internal.id="19973" Prominence="0" RelationType="16" SRC="12289"/>
+<Relation DST="16897" IMemento.internal.id="68869" Prominence="0" RelationType="1073741828" SRC="44545"/>
+<Relation DST="37889" IMemento.internal.id="56069" Prominence="0" RelationType="-2147483648" SRC="47617"/>
+<Relation DST="44545" IMemento.internal.id="68101" Prominence="0" RelationType="-2147483648" SRC="24321"/>
+<Relation DST="79361" IMemento.internal.id="80133" Prominence="0" RelationType="1073741825" SRC="45569"/>
+<Relation DST="11777" IMemento.internal.id="55301" Prominence="0" RelationType="1073741828" SRC="47617"/>
+<Relation DST="15873" IMemento.internal.id="18437" Prominence="0" RelationType="16" SRC="12289"/>
+<Relation DST="47617" IMemento.internal.id="53765" Prominence="0" RelationType="1073741827" SRC="26113"/>
+<Relation DST="76289" IMemento.internal.id="77829" Prominence="0" RelationType="-2147483648" SRC="71937"/>
+<Relation DST="17409" IMemento.internal.id="65029" Prominence="0" RelationType="1073741828" SRC="45569"/>
+<Relation DST="72961" IMemento.internal.id="77061" Prominence="0" RelationType="-2147483648" SRC="24321"/>
+<Relation DST="24321" IMemento.internal.id="28165" Prominence="0" RelationType="1073741829" SRC="25089"/>
+<Relation DST="13313" IMemento.internal.id="15365" Prominence="0" RelationType="16" SRC="11777"/>
+<Relation DST="37889" IMemento.internal.id="39429" Prominence="0" RelationType="1073741829" SRC="26113"/>
+<Relation DST="13313" IMemento.internal.id="51461" Prominence="0" RelationType="1073741828" SRC="46593"/>
+<Relation DST="17921" IMemento.internal.id="63493" Prominence="0" RelationType="1073741828" SRC="45569"/>
+<Relation DST="86785" IMemento.internal.id="87557" Prominence="0" RelationType="1073741825" SRC="46593"/>
+<Relation DST="46593" IMemento.internal.id="50693" Prominence="0" RelationType="-2147483648" SRC="23553"/>
+<Relation DST="15873" IMemento.internal.id="61957" Prominence="0" RelationType="1073741828" SRC="43521"/>
+<Relation DST="79361" IMemento.internal.id="85253" Prominence="0" RelationType="-2147483648" SRC="24321"/>
+<Relation DST="11777" IMemento.internal.id="36357" Prominence="0" RelationType="1073741829" SRC="26113"/>
+<Relation DST="43521" IMemento.internal.id="60421" Prominence="0" RelationType="1073741827" SRC="27137"/>
+<Relation DST="38657" IMemento.internal.id="84485" Prominence="0" RelationType="-2147483648" SRC="80897"/>
+<Relation DST="70913" IMemento.internal.id="71685" Prominence="0" RelationType="1073741825" SRC="43521"/>
+<Relation DST="40449" IMemento.internal.id="83717" Prominence="0" RelationType="-2147483648" SRC="80897"/>
+<Relation DST="16897" IMemento.internal.id="34821" Prominence="0" RelationType="1073741829" SRC="25089"/>
+<Relation DST="40449" IMemento.internal.id="82949" Prominence="0" RelationType="-2147483648" SRC="78337"/>
+<Relation DST="16385" IMemento.internal.id="58117" Prominence="0" RelationType="1073741828" SRC="48641"/>
+<Relation DST="40449" IMemento.internal.id="70149" Prominence="0" RelationType="-2147483648" SRC="44545"/>
+<Relation DST="40449" IMemento.internal.id="82181" Prominence="0" RelationType="-2147483648" SRC="79361"/>
+<Relation DST="16385" IMemento.internal.id="33285" Prominence="0" RelationType="1073741829" SRC="27137"/>
+<Relation DST="17921" IMemento.internal.id="20485" Prominence="0" RelationType="16" SRC="12289"/>
+<Relation DST="13825" IMemento.internal.id="56581" Prominence="0" RelationType="1073741828" SRC="47617"/>
+<Relation DST="12289" IMemento.internal.id="68613" Prominence="0" RelationType="1073741828" SRC="44545"/>
+<Relation DST="16897" IMemento.internal.id="18949" Prominence="0" RelationType="16" SRC="12289"/>
+<Relation DST="42497" IMemento.internal.id="43013" Prominence="0" RelationType="-2147483648" SRC="26113"/>
+<Relation DST="44545" IMemento.internal.id="67077" Prominence="0" RelationType="1073741827" SRC="25089"/>
+<Relation DST="78337" IMemento.internal.id="79109" Prominence="0" RelationType="1073741825" SRC="45569"/>
+<Relation DST="12801" IMemento.internal.id="54277" Prominence="0" RelationType="1073741828" SRC="47617"/>
+<Relation DST="40961" IMemento.internal.id="41477" Prominence="0" RelationType="-2147483648" SRC="27137"/>
+<Relation DST="38657" IMemento.internal.id="65541" Prominence="0" RelationType="-2147483648" SRC="45569"/>
+<Relation DST="24321" IMemento.internal.id="28677" Prominence="0" RelationType="1073741829" SRC="27137"/>
+<Relation DST="88833" IMemento.internal.id="89605" Prominence="0" RelationType="1073741825" SRC="46593"/>
+<Relation DST="42497" IMemento.internal.id="52741" Prominence="0" RelationType="-2147483648" SRC="46593"/>
+<Relation DST="16897" IMemento.internal.id="64773" Prominence="0" RelationType="1073741828" SRC="45569"/>
+<Relation DST="38657" IMemento.internal.id="39941" Prominence="0" RelationType="1073741829" SRC="25089"/>
+<Relation DST="37889" IMemento.internal.id="51973" Prominence="0" RelationType="-2147483648" SRC="46593"/>
+<Relation DST="45569" IMemento.internal.id="64005" Prominence="0" RelationType="-2147483648" SRC="24321"/>
+<Relation DST="11777" IMemento.internal.id="51205" Prominence="0" RelationType="1073741828" SRC="46593"/>
+<Relation DST="12801" IMemento.internal.id="14341" Prominence="0" RelationType="16" SRC="11777"/>
+<Relation DST="85761" IMemento.internal.id="86533" Prominence="0" RelationType="1073741825" SRC="46593"/>
+<Relation DST="46593" IMemento.internal.id="49669" Prominence="0" RelationType="1073741827" SRC="26113"/>
+<Relation DST="72961" IMemento.internal.id="73733" Prominence="0" RelationType="1073741825" SRC="43521"/>
+<Relation DST="13825" IMemento.internal.id="36869" Prominence="0" RelationType="1073741829" SRC="26113"/>
+<Relation DST="16385" IMemento.internal.id="60933" Prominence="0" RelationType="1073741828" SRC="43521"/>
+</RelationPool>
+<ConnectionPool IMemento.internal.id="7434" PoolType="4">
+<Connection ConnectionType="536870913" DST="53250" IMemento.internal.id="57092" MotherDiagram="1283" SRC="48130"/>
+<Connection ConnectionType="-2147483648" DST="76546" IMemento.internal.id="78084" MotherDiagram="43779" SRC="72450"/>
+<Connection ConnectionType="-2147483648" DST="24066" IMemento.internal.id="29444" MotherDiagram="1795" SRC="26882"/>
+<Connection ConnectionType="16" DST="17666" IMemento.internal.id="20228" MotherDiagram="1027" SRC="12546"/>
+<Connection ConnectionType="536870913" DST="38146" IMemento.internal.id="56324" MotherDiagram="1283" SRC="48130"/>
+<Connection ConnectionType="-2147483648" DST="73474" IMemento.internal.id="77316" MotherDiagram="43779" SRC="61186"/>
+<Connection ConnectionType="-2147483648" DST="66306" IMemento.internal.id="83204" MotherDiagram="45827" SRC="78850"/>
+<Connection ConnectionType="536870913" DST="49154" IMemento.internal.id="58884" MotherDiagram="1283" SRC="24578"/>
+<Connection ConnectionType="-2147483648" DST="32002" IMemento.internal.id="34564" MotherDiagram="1795" SRC="25858"/>
+<Connection ConnectionType="-2147483648" DST="81410" IMemento.internal.id="94980" MotherDiagram="45827" SRC="66306"/>
+<Connection ConnectionType="-2147483648" DST="32514" IMemento.internal.id="37124" MotherDiagram="1795" SRC="26882"/>
+<Connection ConnectionType="536870913" DST="38146" IMemento.internal.id="52228" MotherDiagram="1283" SRC="47106"/>
+<Connection ConnectionType="-2147483648" DST="45314" IMemento.internal.id="67332" MotherDiagram="2051" SRC="25346"/>
+<Connection ConnectionType="16" DST="16130" IMemento.internal.id="18692" MotherDiagram="1027" SRC="12546"/>
+<Connection ConnectionType="-2147483648" DST="66306" IMemento.internal.id="82436" MotherDiagram="45827" SRC="79874"/>
+<Connection ConnectionType="-2147483648" DST="38402" IMemento.internal.id="39684" MotherDiagram="1795" SRC="26882"/>
+<Connection ConnectionType="-2147483648" DST="87298" IMemento.internal.id="94212" MotherDiagram="46851" SRC="50434"/>
+<Connection ConnectionType="536870913" DST="38914" IMemento.internal.id="69892" MotherDiagram="1283" SRC="45058"/>
+<Connection ConnectionType="-2147483648" DST="44290" IMemento.internal.id="60676" MotherDiagram="2051" SRC="27394"/>
+<Connection ConnectionType="-2147483648" DST="40706" IMemento.internal.id="42244" MotherDiagram="2307" SRC="25602"/>
+<Connection ConnectionType="-2147483648" DST="30466" IMemento.internal.id="33028" MotherDiagram="1795" SRC="27906"/>
+<Connection ConnectionType="-2147483648" DST="46338" IMemento.internal.id="63236" MotherDiagram="2051" SRC="25346"/>
+<Connection ConnectionType="16" DST="13058" IMemento.internal.id="14596" MotherDiagram="1027" SRC="12034"/>
+<Connection ConnectionType="-2147483648" DST="48386" IMemento.internal.id="54020" MotherDiagram="2051" SRC="26370"/>
+<Connection ConnectionType="-2147483648" DST="89346" IMemento.internal.id="93444" MotherDiagram="46851" SRC="52994"/>
+<Connection ConnectionType="-2147483648" DST="29698" IMemento.internal.id="35588" MotherDiagram="1795" SRC="25858"/>
+<Connection ConnectionType="536870913" DST="38914" IMemento.internal.id="65796" MotherDiagram="1283" SRC="46082"/>
+<Connection ConnectionType="536870913" DST="59906" IMemento.internal.id="62468" MotherDiagram="1283" SRC="44034"/>
+<Connection ConnectionType="-2147483648" DST="24834" IMemento.internal.id="28932" MotherDiagram="1795" SRC="27906"/>
+<Connection ConnectionType="-2147483648" DST="51714" IMemento.internal.id="92676" MotherDiagram="46851" SRC="89346"/>
+<Connection ConnectionType="536870913" DST="45058" IMemento.internal.id="68356" MotherDiagram="1283" SRC="24578"/>
+<Connection ConnectionType="16" DST="16642" IMemento.internal.id="19716" MotherDiagram="1027" SRC="12546"/>
+<Connection ConnectionType="-2147483648" DST="47362" IMemento.internal.id="49924" MotherDiagram="2051" SRC="26370"/>
+<Connection ConnectionType="536870913" DST="44034" IMemento.internal.id="61700" MotherDiagram="1283" SRC="24578"/>
+<Connection ConnectionType="-2147483648" DST="52994" IMemento.internal.id="91908" MotherDiagram="46851" SRC="86274"/>
+<Connection ConnectionType="-2147483648" DST="42754" IMemento.internal.id="43268" MotherDiagram="2307" SRC="26626"/>
+<Connection ConnectionType="-2147483648" DST="29954" IMemento.internal.id="34052" MotherDiagram="1795" SRC="25858"/>
+<Connection ConnectionType="536870913" DST="46082" IMemento.internal.id="64260" MotherDiagram="1283" SRC="24578"/>
+<Connection ConnectionType="16" DST="13570" IMemento.internal.id="15620" MotherDiagram="1027" SRC="12034"/>
+<Connection ConnectionType="536870913" DST="48130" IMemento.internal.id="55044" MotherDiagram="1283" SRC="23810"/>
+<Connection ConnectionType="-2147483648" DST="31490" IMemento.internal.id="36612" MotherDiagram="1795" SRC="26882"/>
+<Connection ConnectionType="-2147483648" DST="62722" IMemento.internal.id="76036" MotherDiagram="43779" SRC="72450"/>
+<Connection ConnectionType="-2147483648" DST="52994" IMemento.internal.id="91140" MotherDiagram="46851" SRC="88322"/>
+<Connection ConnectionType="536870913" DST="66562" IMemento.internal.id="66820" MotherDiagram="1283" SRC="46082"/>
+<Connection ConnectionType="16" DST="18178" IMemento.internal.id="20740" MotherDiagram="1027" SRC="12546"/>
+<Connection ConnectionType="536870913" DST="59906" IMemento.internal.id="60164" MotherDiagram="1283" SRC="49154"/>
+<Connection ConnectionType="-2147483648" DST="62722" IMemento.internal.id="75268" MotherDiagram="43779" SRC="71426"/>
+<Connection ConnectionType="536870913" DST="47106" IMemento.internal.id="50948" MotherDiagram="1283" SRC="23810"/>
+<Connection ConnectionType="-2147483648" DST="52994" IMemento.internal.id="90372" MotherDiagram="46851" SRC="87298"/>
+<Connection ConnectionType="-2147483648" DST="41218" IMemento.internal.id="41732" MotherDiagram="2307" SRC="27650"/>
+<Connection ConnectionType="536870913" DST="53250" IMemento.internal.id="53508" MotherDiagram="1283" SRC="47106"/>
+<Connection ConnectionType="-2147483648" DST="32258" IMemento.internal.id="35076" MotherDiagram="1795" SRC="25858"/>
+<Connection ConnectionType="-2147483648" DST="62722" IMemento.internal.id="74500" MotherDiagram="43779" SRC="73474"/>
+<Connection ConnectionType="-2147483648" DST="30722" IMemento.internal.id="37636" MotherDiagram="1795" SRC="26882"/>
+<Connection ConnectionType="-2147483648" DST="24834" IMemento.internal.id="28420" MotherDiagram="1795" SRC="25858"/>
+<Connection ConnectionType="16" DST="17154" IMemento.internal.id="19204" MotherDiagram="1027" SRC="12546"/>
+<Connection ConnectionType="-2147483648" DST="39170" IMemento.internal.id="40196" MotherDiagram="1795" SRC="25858"/>
+<Connection ConnectionType="536870913" DST="66562" IMemento.internal.id="70404" MotherDiagram="1283" SRC="45058"/>
+<Connection ConnectionType="-2147483648" DST="79874" IMemento.internal.id="85508" MotherDiagram="45827" SRC="63746"/>
+<Connection ConnectionType="-2147483648" DST="49410" IMemento.internal.id="57860" MotherDiagram="2051" SRC="27394"/>
+<Connection ConnectionType="-2147483648" DST="30978" IMemento.internal.id="33540" MotherDiagram="1795" SRC="27906"/>
+<Connection ConnectionType="16" DST="14082" IMemento.internal.id="15108" MotherDiagram="1027" SRC="12034"/>
+<Connection ConnectionType="-2147483648" DST="65282" IMemento.internal.id="84740" MotherDiagram="45827" SRC="81410"/>
+<Connection ConnectionType="-2147483648" DST="31234" IMemento.internal.id="36100" MotherDiagram="1795" SRC="26882"/>
+</ConnectionPool>
+<DiagramPool IMemento.internal.id="778" PoolType="3">
+<Diagram CorrespondingEntity="86785" DiagramType="92" IMemento.internal.id="87043" ParentDiagram="46851"/>
+<Diagram DiagramType="88" IMemento.internal.id="515"/>
+<Diagram CorrespondingEntity="72961" DiagramType="92" IMemento.internal.id="73219" ParentDiagram="43779"/>
+<Diagram DiagramType="89" IMemento.internal.id="1027"/>
+<Diagram CorrespondingEntity="46593" DiagramType="91" IMemento.internal.id="46851">
+<ChildrenDiagram ID="86019" INDEX="0"/>
+<ChildrenDiagram ID="87043" INDEX="1"/>
+<ChildrenDiagram ID="88067" INDEX="2"/>
+<ChildrenDiagram ID="89091" INDEX="3"/>
+</Diagram>
+<Diagram CorrespondingEntity="87809" DiagramType="92" IMemento.internal.id="88067" ParentDiagram="46851"/>
+<Diagram DiagramType="86" IMemento.internal.id="1539"/>
+<Diagram CorrespondingEntity="80897" DiagramType="92" IMemento.internal.id="81155" ParentDiagram="45827"/>
+<Diagram DiagramType="85" IMemento.internal.id="2051"/>
+<Diagram CorrespondingEntity="47617" DiagramType="91" IMemento.internal.id="47875"/>
+<Diagram CorrespondingEntity="88833" DiagramType="92" IMemento.internal.id="89091" ParentDiagram="46851"/>
+<Diagram CorrespondingEntity="43521" DiagramType="91" IMemento.internal.id="43779">
+<ChildrenDiagram ID="71171" INDEX="0"/>
+<ChildrenDiagram ID="72195" INDEX="1"/>
+<ChildrenDiagram ID="73219" INDEX="2"/>
+</Diagram>
+<Diagram CorrespondingEntity="48641" DiagramType="91" IMemento.internal.id="48899"/>
+<Diagram DiagramType="90" IMemento.internal.id="1283"/>
+<Diagram CorrespondingEntity="70913" DiagramType="92" IMemento.internal.id="71171" ParentDiagram="43779"/>
+<Diagram CorrespondingEntity="44545" DiagramType="91" IMemento.internal.id="44803"/>
+<Diagram CorrespondingEntity="78337" DiagramType="92" IMemento.internal.id="78595" ParentDiagram="45827"/>
+<Diagram CorrespondingEntity="85761" DiagramType="92" IMemento.internal.id="86019" ParentDiagram="46851"/>
+<Diagram DiagramType="87" IMemento.internal.id="1795"/>
+<Diagram DiagramType="84" IMemento.internal.id="2307"/>
+<Diagram CorrespondingEntity="71937" DiagramType="92" IMemento.internal.id="72195" ParentDiagram="43779"/>
+<Diagram CorrespondingEntity="45569" DiagramType="91" IMemento.internal.id="45827">
+<ChildrenDiagram ID="78595" INDEX="0"/>
+<ChildrenDiagram ID="79619" INDEX="1"/>
+<ChildrenDiagram ID="81155" INDEX="2"/>
+</Diagram>
+<Diagram CorrespondingEntity="79361" DiagramType="92" IMemento.internal.id="79619" ParentDiagram="45827"/>
+</DiagramPool>
+<CellPool IMemento.internal.id="3338" PoolType="2">
+<EntityCell IMemento.internal.id="84994" MotherDiagram="79619" WrappedEntity="24321">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="160"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="48130" MotherDiagram="1283" WrappedEntity="47617">
+<Look Height="-1" Width="-1" XCoordinate="18" YCoordinate="184"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="23298" MotherDiagram="1539" WrappedEntity="22273">
+<Look Height="-1" Width="-1" XCoordinate="393" YCoordinate="60"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="84226" MotherDiagram="81155" WrappedEntity="38657">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="160"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="47362" MotherDiagram="2051" WrappedEntity="46593">
+<Look Height="-1" Width="-1" XCoordinate="143" YCoordinate="307"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="71426" MotherDiagram="43779" WrappedEntity="70913">
+<Look Height="-1" Width="-1" XCoordinate="147" YCoordinate="146"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="83458" MotherDiagram="81155" WrappedEntity="40449">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="70658" MotherDiagram="44803" WrappedEntity="40449">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="190"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="82690" MotherDiagram="78595" WrappedEntity="40449">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="81922" MotherDiagram="79619" WrappedEntity="40449">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="45058" MotherDiagram="1283" WrappedEntity="44545">
+<Look Height="-1" Width="-1" XCoordinate="321" YCoordinate="212"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="32258" MotherDiagram="1795" WrappedEntity="16897">
+<Look Height="-1" Width="-1" XCoordinate="417" YCoordinate="346"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="44290" MotherDiagram="2051" WrappedEntity="43521">
+<Look Height="-1" Width="-1" XCoordinate="39" YCoordinate="167"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="31490" MotherDiagram="1795" WrappedEntity="11777">
+<Look Height="-1" Width="-1" XCoordinate="222" YCoordinate="289"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="30722" MotherDiagram="1795" WrappedEntity="13313">
+<Look Height="-1" Width="-1" XCoordinate="5" YCoordinate="295"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="42754" MotherDiagram="2307" WrappedEntity="42497">
+<Look Height="-1" Width="-1" XCoordinate="158" YCoordinate="283"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="78850" MotherDiagram="45827" WrappedEntity="78337">
+<Look Height="-1" Width="-1" XCoordinate="214" YCoordinate="142"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="29954" MotherDiagram="1795" WrappedEntity="17921">
+<Look Height="-1" Width="-1" XCoordinate="563" YCoordinate="225"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="17154" MotherDiagram="1027" WrappedEntity="16897">
+<Look Height="-1" Width="-1" XCoordinate="646" YCoordinate="191"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="41218" MotherDiagram="2307" WrappedEntity="40961">
+<Look Height="-1" Width="-1" XCoordinate="65" YCoordinate="139"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="53250" MotherDiagram="1283" WrappedEntity="42497">
+<Look Height="-1" Width="-1" XCoordinate="52" YCoordinate="289"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="65282" MotherDiagram="45827" WrappedEntity="38657">
+<Look Height="-1" Width="-1" XCoordinate="295" YCoordinate="290"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="89346" MotherDiagram="46851" WrappedEntity="88833">
+<Look Height="-1" Width="-1" XCoordinate="309" YCoordinate="245"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="76546" MotherDiagram="43779" WrappedEntity="76289">
+<Look Height="-1" Width="-1" XCoordinate="290" YCoordinate="300"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="27650" MotherDiagram="2307" WrappedEntity="27137">
+<Look Height="-1" Width="-1" XCoordinate="69" YCoordinate="66"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="51714" MotherDiagram="46851" WrappedEntity="37889">
+<Look Height="-1" Width="-1" XCoordinate="344" YCoordinate="303"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="63746" MotherDiagram="45827" WrappedEntity="24321">
+<Look Height="-1" Width="-1" XCoordinate="11" YCoordinate="41"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="26882" MotherDiagram="1795" WrappedEntity="26113">
+<Look Height="-1" Width="-1" XCoordinate="125" YCoordinate="162"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="38914" MotherDiagram="1283" WrappedEntity="38657">
+<Look Height="-1" Width="-1" XCoordinate="490" YCoordinate="253"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="14082" MotherDiagram="1027" WrappedEntity="13825">
+<Look Height="-1" Width="-1" XCoordinate="285" YCoordinate="125"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="38146" MotherDiagram="1283" WrappedEntity="37889">
+<Look Height="-1" Width="-1" XCoordinate="165" YCoordinate="247"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="25346" MotherDiagram="2051" WrappedEntity="25089">
+<Look Height="-1" Width="-1" XCoordinate="287" YCoordinate="81"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="86274" MotherDiagram="46851" WrappedEntity="85761">
+<Look Height="-1" Width="-1" XCoordinate="325" YCoordinate="176"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="49410" MotherDiagram="2051" WrappedEntity="48641">
+<Look Height="-1" Width="-1" XCoordinate="156" YCoordinate="166"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="12546" MotherDiagram="1027" WrappedEntity="12289">
+<Look Height="-1" Width="-1" XCoordinate="585" YCoordinate="50"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="73474" MotherDiagram="43779" WrappedEntity="72961">
+<Look Height="-1" Width="-1" XCoordinate="50" YCoordinate="188"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="24578" MotherDiagram="1283" WrappedEntity="24321">
+<Look Height="-1" Width="-1" XCoordinate="393" YCoordinate="54"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="23810" MotherDiagram="1283" WrappedEntity="23553">
+<Look Height="-1" Width="-1" XCoordinate="30" YCoordinate="59"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="59906" MotherDiagram="1283" WrappedEntity="40961">
+<Look Height="-1" Width="-1" XCoordinate="621" YCoordinate="304"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="47106" MotherDiagram="1283" WrappedEntity="46593">
+<Look Height="-1" Width="-1" XCoordinate="162" YCoordinate="151"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="46338" MotherDiagram="2051" WrappedEntity="45569">
+<Look Height="-1" Width="-1" XCoordinate="287" YCoordinate="167"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="58370" MotherDiagram="48899" WrappedEntity="24321">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="93698" MotherDiagram="87043" WrappedEntity="23553">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="160"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="32002" MotherDiagram="1795" WrappedEntity="12289">
+<Look Height="-1" Width="-1" XCoordinate="548" YCoordinate="291"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="92930" MotherDiagram="89091" WrappedEntity="42497">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="160"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="44034" MotherDiagram="1283" WrappedEntity="43521">
+<Look Height="-1" Width="-1" XCoordinate="556" YCoordinate="184"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="31234" MotherDiagram="1795" WrappedEntity="12801">
+<Look Height="-1" Width="-1" XCoordinate="88" YCoordinate="359"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="92162" MotherDiagram="89091" WrappedEntity="37889">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="30466" MotherDiagram="1795" WrappedEntity="15873">
+<Look Height="-1" Width="-1" XCoordinate="714" YCoordinate="248"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="91394" MotherDiagram="86019" WrappedEntity="42497">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="54530" MotherDiagram="47875" WrappedEntity="23553">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="66562" MotherDiagram="1283" WrappedEntity="40449">
+<Look Height="-1" Width="-1" XCoordinate="404" YCoordinate="314"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="17666" MotherDiagram="1027" WrappedEntity="17409">
+<Look Height="-1" Width="-1" XCoordinate="733" YCoordinate="132"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="29698" MotherDiagram="1795" WrappedEntity="17409">
+<Look Height="-1" Width="-1" XCoordinate="369" YCoordinate="244"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="90626" MotherDiagram="88067" WrappedEntity="42497">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="89858" MotherDiagram="87043" WrappedEntity="42497">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="52994" MotherDiagram="46851" WrappedEntity="42497">
+<Look Height="-1" Width="-1" XCoordinate="134" YCoordinate="245"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="16130" MotherDiagram="1027" WrappedEntity="15873">
+<Look Height="-1" Width="-1" XCoordinate="473" YCoordinate="127"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="27394" MotherDiagram="2051" WrappedEntity="27137">
+<Look Height="-1" Width="-1" XCoordinate="102" YCoordinate="79"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="88322" MotherDiagram="46851" WrappedEntity="87809">
+<Look Height="-1" Width="-1" XCoordinate="174" YCoordinate="134"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="75522" MotherDiagram="72195" WrappedEntity="40961">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="26626" MotherDiagram="2307" WrappedEntity="26113">
+<Look Height="-1" Width="-1" XCoordinate="113" YCoordinate="216"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="62722" MotherDiagram="43779" WrappedEntity="40961">
+<Look Height="-1" Width="-1" XCoordinate="162" YCoordinate="248"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="74754" MotherDiagram="71171" WrappedEntity="40961">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="25858" MotherDiagram="1795" WrappedEntity="25089">
+<Look Height="-1" Width="-1" XCoordinate="421" YCoordinate="157"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="13058" MotherDiagram="1027" WrappedEntity="12801">
+<Look Height="-1" Width="-1" XCoordinate="20" YCoordinate="121"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="73986" MotherDiagram="73219" WrappedEntity="40961">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="49154" MotherDiagram="1283" WrappedEntity="48641">
+<Look Height="-1" Width="-1" XCoordinate="667" YCoordinate="205"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="61186" MotherDiagram="43779" WrappedEntity="24321">
+<Look Height="-1" Width="-1" XCoordinate="5" YCoordinate="42"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="48386" MotherDiagram="2051" WrappedEntity="47617">
+<Look Height="-1" Width="-1" XCoordinate="266" YCoordinate="306"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="72450" MotherDiagram="43779" WrappedEntity="71937">
+<Look Height="-1" Width="-1" XCoordinate="289" YCoordinate="189"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="59650" MotherDiagram="48899" WrappedEntity="40961">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="160"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="22786" MotherDiagram="1027" WrappedEntity="22529">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="160"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="22018" MotherDiagram="1539" WrappedEntity="20993">
+<Look Height="-1" Width="-1" XCoordinate="168" YCoordinate="60"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="46082" MotherDiagram="1283" WrappedEntity="45569">
+<Look Height="-1" Width="-1" XCoordinate="423" YCoordinate="183"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="45314" MotherDiagram="2051" WrappedEntity="44545">
+<Look Height="-1" Width="-1" XCoordinate="402" YCoordinate="168"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="57346" MotherDiagram="47875" WrappedEntity="42497">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="190"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="69378" MotherDiagram="44803" WrappedEntity="38657">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="160"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="81410" MotherDiagram="45827" WrappedEntity="80897">
+<Look Height="-1" Width="-1" XCoordinate="280" YCoordinate="228"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="32514" MotherDiagram="1795" WrappedEntity="13825">
+<Look Height="-1" Width="-1" XCoordinate="29" YCoordinate="237"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="55810" MotherDiagram="47875" WrappedEntity="37889">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="160"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="67842" MotherDiagram="44803" WrappedEntity="24321">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="130"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="79874" MotherDiagram="45827" WrappedEntity="79361">
+<Look Height="-1" Width="-1" XCoordinate="37" YCoordinate="164"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="30978" MotherDiagram="1795" WrappedEntity="16385">
+<Look Height="-1" Width="-1" XCoordinate="799" YCoordinate="289"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="18178" MotherDiagram="1027" WrappedEntity="17921">
+<Look Height="-1" Width="-1" XCoordinate="482" YCoordinate="216"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="66306" MotherDiagram="45827" WrappedEntity="40449">
+<Look Height="-1" Width="-1" XCoordinate="110" YCoordinate="222"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="16642" MotherDiagram="1027" WrappedEntity="16385">
+<Look Height="-1" Width="-1" XCoordinate="569" YCoordinate="271"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="77570" MotherDiagram="72195" WrappedEntity="76289">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="160"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="40706" MotherDiagram="2307" WrappedEntity="40449">
+<Look Height="-1" Width="-1" XCoordinate="233" YCoordinate="144"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="76802" MotherDiagram="73219" WrappedEntity="24321">
+<Look Height="-1" Width="-1" XCoordinate="100" YCoordinate="160"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="27906" MotherDiagram="1795" WrappedEntity="27137">
+<Look Height="-1" Width="-1" XCoordinate="752" YCoordinate="158"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="39170" MotherDiagram="1795" WrappedEntity="38657">
+<Look Height="-1" Width="-1" XCoordinate="602" YCoordinate="178"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="26370" MotherDiagram="2051" WrappedEntity="26113">
+<Look Height="-1" Width="-1" XCoordinate="152" YCoordinate="229"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="87298" MotherDiagram="46851" WrappedEntity="86785">
+<Look Height="-1" Width="-1" XCoordinate="40" YCoordinate="175"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="38402" MotherDiagram="1795" WrappedEntity="37889">
+<Look Height="-1" Width="-1" XCoordinate="264" YCoordinate="207"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="50434" MotherDiagram="46851" WrappedEntity="23553">
+<Look Height="-1" Width="-1" XCoordinate="-1" YCoordinate="34"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="13570" MotherDiagram="1027" WrappedEntity="13313">
+<Look Height="-1" Width="-1" XCoordinate="174" YCoordinate="197"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="25602" MotherDiagram="2307" WrappedEntity="25089">
+<Look Height="-1" Width="-1" XCoordinate="221" YCoordinate="69"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="24834" MotherDiagram="1795" WrappedEntity="24321">
+<Look Height="-1" Width="-1" XCoordinate="482" YCoordinate="54"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="12034" MotherDiagram="1027" WrappedEntity="11777">
+<Look Height="-1" Width="-1" XCoordinate="146" YCoordinate="41"/>
+</EntityCell>
+<EntityCell IMemento.internal.id="24066" MotherDiagram="1795" WrappedEntity="23553">
+<Look Height="-1" Width="-1" XCoordinate="118" YCoordinate="53"/>
+</EntityCell>
+</CellPool>
+<EntityPool IMemento.internal.id="2826" PoolType="1">
+<Scenario EntityName="Pick best strategy Scenario" IMemento.internal.id="20993" RelevantGoal="21249"/>
+<Goal EntityName="Maximize portfolio value" IMemento.internal.id="11777"/>
+<Percept EntityName="Request for trading strategy" IMemento.internal.id="23553"/>
+<Action EntityName="Inform predictions" IMemento.internal.id="38657"/>
+<Agent EntityName="Data Analyst(s)" IMemento.internal.id="44545"/>
+<Role EntityName="Create investment strategies" IMemento.internal.id="26113"/>
+<Goal EntityName="Use regressors to learn from features" IMemento.internal.id="16897"/>
+<Action EntityName="Inform strategy" IMemento.internal.id="37889"/>
+<Data EntityName="Predictions Database" IMemento.internal.id="40449"/>
+<Actor EntityName="Actor" IMemento.internal.id="6913"/>
+<Capability EntityName="EvaluateStrategiesCapability" IMemento.internal.id="85761" Owner="Fund Manager" OwnerId="46593"/>
+<Goal EntityName="Learn optimal investment strategies" IMemento.internal.id="12801"/>
+<Goal EntityName="Pick best strategy" IMemento.internal.id="21249"/>
+<Agent EntityName="Data Manager" IMemento.internal.id="45569"/>
+<Role EntityName="Collect data" IMemento.internal.id="27137"/>
+<Goal EntityName="Choose best prediction" IMemento.internal.id="17921"/>
+<Capability EntityName="EvaluatePredictionsCapability" IMemento.internal.id="78337" Owner="Data Manager" OwnerId="45569"/>
+<Capability EntityName="InformPredictionsCapability" IMemento.internal.id="80897" Owner="Data Manager" OwnerId="45569"/>
+<Capability EntityName="ApplyStrategyCapability" IMemento.internal.id="86785" Owner="Fund Manager" OwnerId="46593"/>
+<Goal EntityName="Choose best strategy" IMemento.internal.id="13825"/>
+<Goal EntityName="Generate features" IMemento.internal.id="16385"/>
+<Agent EntityName="Fund Manager" IMemento.internal.id="46593"/>
+<Capability EntityName="PreprocessDataCapability" IMemento.internal.id="70913" Owner="Data Wrangler" OwnerId="43521"/>
+<Scenario EntityName="Predict future asset prices Scenario" IMemento.internal.id="22273" RelevantGoal="22529"/>
+<Capability EntityName="MakePredictionsCapability" IMemento.internal.id="79361" Owner="Data Manager" OwnerId="45569"/>
+<Goal EntityName="Predict asset future prices" IMemento.internal.id="12289"/>
+<Data EntityName="Strategies Database" IMemento.internal.id="42497"/>
+<Capability EntityName="ImproveStrategyCapability" IMemento.internal.id="87809" Owner="Fund Manager" OwnerId="46593"/>
+<Goal EntityName="Calculate performance" IMemento.internal.id="17409"/>
+<Agent EntityName="Investment Analyst(s)" IMemento.internal.id="47617"/>
+<Capability EntityName="GenerateFeaturesCapability" IMemento.internal.id="71937" Owner="Data Wrangler" OwnerId="43521"/>
+<Data EntityName="Features Database" IMemento.internal.id="40961"/>
+<Goal EntityName="Predict future asset prices" IMemento.internal.id="22529"/>
+<Goal EntityName="Evaluate strategy performance" IMemento.internal.id="13313"/>
+<Agent EntityName="Data Wrangler" IMemento.internal.id="43521"/>
+<Role EntityName="Predict asset prices" IMemento.internal.id="25089"/>
+<Capability EntityName="CommunicateStrategyCapability" IMemento.internal.id="88833" Owner="Fund Manager" OwnerId="46593"/>
+<Goal EntityName="Download stock data" IMemento.internal.id="15873"/>
+<Message EntityName="Inform features available" IMemento.internal.id="76289" Owner="Data Wrangler" OwnerId="43521"/>
+<Capability EntityName="CollectDataCapability" IMemento.internal.id="72961" Owner="Data Wrangler" OwnerId="43521"/>
+<Percept EntityName="Request for future prices" IMemento.internal.id="24321"/>
+<Agent EntityName="Scrapper(s)" IMemento.internal.id="48641"/>
+</EntityPool>
+</Project>

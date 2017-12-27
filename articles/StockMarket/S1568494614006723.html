@@ -1,0 +1,1071 @@
+
+
+
+
+
+
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" Title="Default Styles" href="" type="text/css">
+
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<meta name="robots" content="NOARCHIVE">
+<meta name="robots" content="noodp" />
+<meta name="robots" content="noydir" />
+
+<link rel="canonical" href="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/article/pii/S1568494614006723">
+
+
+<link rel="shortcut icon" href="http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/favSD.ico" type="image/x-icon">
+<title>
+ A bat-neural network multi-agent system (BNNMAS) for stock price prediction: Case study of DAX stock price
+ </title> 
+
+<link type="text/css" rel="StyleSheet" href="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/gadgetservices/gadgets/v9/css/gadgets_ext,gadgets,toolbar,SDArticleGadgetOverRide,jquery-ui-1.8.4.custom.css">
+
+
+<link rel="stylesheet" href="http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/css/article_1603R8.css" type="text/css">
+<link rel="stylesheet" href="http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/css/articleSprite_1603R8.css" type="text/css">
+<link rel="stylesheet" href="http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/css/jquery-ui_1603R8.css" type="text/css">
+
+
+
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" Title="Default Styles" href="http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/css/css_gen_ielt9_1603R8.css" type="text/css">
+<![endif]-->
+
+<script>
+var ab=new Object();
+ab.entitled = true;
+</script>
+<script>(function() {var scriptTag = document.createElement('script'); 
+scriptTag.type = 'text/javascript';scriptTag.async = true;
+scriptTag.src = '//cdn.optimizely.com/js/204774041.js';
+var head = document.getElementsByTagName('head')[0];
+head.parentNode.insertBefore(scriptTag, head);
+})();function optimizelyTimeout() {
+window.optimizely = window.optimizely|| []; 
+if(!window.optimizely.data) {
+window.optimizely.push("timeout"); } }
+setTimeout(optimizelyTimeout, 1000); </script>
+
+<script type='text/javascript'>
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+
+<script>
+var prs = new Object();prs.rt=function(label,ts){this[label]=(ts||ts==0?ts:new Date().getTime());};
+</script>
+
+
+
+<!--[if lte IE 7]>
+<script src="http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/ut/js/json2_1603R8.js.min"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="ua_btn" role="region" aria-label="screen reader compatability"><a role="button" rel="nofollow" href="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/article/pii/S1568494614006723?np=y">Screen reader users, click here to load entire article</a>This page uses JavaScript to progressively load the article content as a user scrolls.  Screen reader users, click the load entire article button to bypass dynamically loaded article content.</div>
+
+
+
+<script>
+var refLinkURL = "http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/relLink/ajaxReq?_eid=1-s2.0-S1568494614006723";
+var updatedCitedBy = "http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/referenceResolution/ajaxRefResol?_updateCitedBy=";
+var refResolvePath = "http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/referenceResolution/ajaxRefResol?_pii=S1568494614006723&_refCnt=53&_docType=article";
+
+// these variables handle the reference resolution. Please ignore the naming.
+// the first variable myMap will hold an associative array of links by bibID
+// the second variable myXabsCounts holds the scopus counts.
+var myMap = []; // html of links for references.
+var myXabsCounts = []; // scopus counts
+</script>
+<div id="header-area">
+  
+
+
+<!-- ************* For A/B testing FAST and SOLR Proxy ***************** -->
+
+<!-- *************End for A/B testing FAST and SOLR Proxy *****************-->
+
+
+
+<div id="ieWarningMsg">
+    <span class="infoIcon_ie spErrorIcon">
+        Please note that Internet Explorer version 8.x will not be supported as of January 1, 2016. Please refer to <a href="http://blog.sciencedirect.com.ez54.periodicos.capes.gov.br/posts/have-you-heard-spread-the-word-about-upgrading-your-browser"> this blog post</a> for more information.
+    </span>
+    <a class="closeBt" title="Close Internet Explorer 7 warning">Close</a>
+</div>
+
+
+
+<div id="header">
+
+<div class="headerBlk">
+    <div class="headerInner" role="navigation" aria-label="ScienceDirect">
+        <div class="home">
+            
+            <!--INSERTS THE TEMPLATE VARIABLES POPULATED FROM DB for SCIVERSE and PRODUCT labels-->
+            
+                <a href="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/" title="ScienceDirect -The world's leading full-text scientific database"> <span class="logoScienceDirectImg">&nbsp;</span></a>
+            
+        </div>
+
+        
+            <ul class="publication">
+                <!-- Journals link -->
+                
+                    
+                        <li>
+                            <a  href="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/journals">Journals</a>
+                        </li>
+                     
+                
+
+                <!-- Books link -->
+                
+                    
+                        <li class="sep">
+                            <a  href="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/bookbshsrw">Books</a>
+                        </li>
+                     
+                
+            </ul>
+        
+
+    </div>
+    
+         <!-- if not logged in -->
+         
+            
+            <div id="login" class="clearfix" aria-label="Help and Sign In" role="navigation" style="margin-right:230px;">
+            <ul class="userlinks">
+                
+                
+                
+            
+                <!--top right widget-->
+                <li  id="loginPlus">
+                    <h2><a id="loginPlusScript" href="javascript:LoginBox.flipLogin('loginBox',null);" title="Sign in to ScienceDirect" class="novisit plus nojs S_C_SignIn" aria-haspopup="true" aria-expanded="false" aria-controls="loginBox" role="button" >Sign in</a></h2>
+                    <noscript><a href="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science?_ob=HomePageURL&_method=userHomePage&_fl=y&md5=6dada1fb726164470bad9e40bbc4d7fa" title="Open the Sign in Box" class="plus S_C_SignIn" id="loginPlusNoScript" >Sign in</a></noscript>
+					
+                    <div id="loginBox" role="dialog" aria-labelledby="headingSignIn" class="bannerAvail" style="width:600px;display:none;"> 
+                        
+                        <div style="width:285px;float:right;border-left:1px solid #9B9B9B;padding-left:10px;min-height:180px;">
+                            
+                                <div class="openAthens"><a href="https://auth.elsevier.com/ShibAuth/institutionLogin?entityID=https%3A%2F%2Fidp.eduserv.org.uk%2Fopenathens&appReturnURL=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS1568494614006723" title="Log in using OpenAthens">OpenAthens login</a></div>
+                            
+                            
+                            <div class="sampletext">
+                                <div style="font-weight:bold;padding-bottom:7px;"><h3><b>Login via your institution</b></h3></div>
+                                
+                                
+                                    <div class="fedLink"><a href="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/externallogin" title="Other institution login">Other institution login</a></div>
+                                
+                            </div>
+                            
+                            
+                            
+                                
+                            
+                            
+                            
+                        </div>
+                        
+                        <div class="padding" style="width:285px;" >
+                            <form name="sdLogin" method="POST" action="https://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/login" id="login-box-form" style="margin:0;">
+                            <b><h3 id="headingSignIn">Sign in using your ScienceDirect credentials</h3></b>
+                            <input type="hidden" name="login" value="login">
+                            <div style="margin-top:20px;">
+                            <label for="username"><span style="text-align:right;">Username:</span>
+                            <input id="username" type="text" name="userid" title="Please enter your username here" /></label>
+                            </div>
+                            
+                            <div style="margin-top:7px;">
+                            <label for="password"><span style="text-align:right;">Password:</span>
+                            <input id="password" type="password" name="password" maxlength="20" title="Please enter your password here" onkeypress="if(13==event.keyCode)this.form.submit();if (13==event.keyCode)return false;"/></label>
+                            </div>
+                                   
+                                       
+                            
+                            <div class="remember">
+                            <input type="checkbox" checked name="rememberid" id="rememberMe" value="Y" class="allCheck top2fix" title="Checking this option will log you in automatically next time you visit ScienceDirect"/>
+                            <label for="rememberMe" title="Checking this option will log you in automatically next time you visit ScienceDirect">Remember me</label>
+                            </div>
+                            
+                            <input type="hidden" name="_ob" value="MiamiLogonURL">
+                            <input type="hidden" name="targetURL" value="http://www.sciencedirect.com/science/article/pii/S1568494614006723" >
+                            <input type="hidden" name="returnURL" value="http://www.sciencedirect.com/science/article/pii/S1568494614006723" >
+                            <div class="submit" >
+                            
+                            <div style="float:left;padding-left:0px;"><input class="button" type="Submit" name="arrow" alt="Sign in to ScienceDirect" title="Sign in to ScienceDirect" value="Sign in"/></div>
+                        
+                            
+                            <div class="notRegistered"><span class="astPad">| </span><span><a href="https://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/register-new-user" title="" target="_top">Not Registered?</a></span></div>
+                            
+                            
+                            <div style="clear:left;"></div>
+                            </div>
+                            
+                            <div class="forgotpass">
+                            <a href="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science?_ob=ReminderURL&_method=display&md5=4a97631c25ac81c09ad2f961106e9da2" target="passwd" onClick="var remindWin;remindWin=window.open('','passwd','scrollbars=yes,resizable=yes,directories=no,toolbar=n,menubar=no,status=no,width=650,height=300');" title="Click here for help in recovering your ScienceDirect access">Forgotten username or password?</a>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="last"><a class="S_C_helpLink" href="/science?_ob=HelpURL&_file=browse_open_doc.htm&_btn=Y&_zone=TopNavBar&_origin=article" target="sdhelp" title="Help (Opens new window)" onClick="var helpWin; helpWin=window.open('/science?_ob=HelpURL&_file=browse_open_doc.htm&_btn=Y&_zone=TopNavBar&_origin=article','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=984,height=738'); helpWin.focus(); return false" >Help</a></li>
+                
+            </ul>
+            </div>
+            
+            
+        <!-- logged in -->
+             
+    
+</div>
+
+
+    
+                        
+        <div class="clearfix" id="bannerTop" role="banner" aria-label="Institutional Access">                        
+            
+                <a href="http://www.capes.gov.br" onclick="openNS('http://www.capes.gov.br'); return false;">
+                    <img src="http://www.capes.gov.br/imagens/capeslogo.gif" border="0" />                    
+                </a>
+            
+        </div>
+        
+    
+           
+
+
+
+
+</div><!--header-->
+
+
+
+
+
+
+
+
+
+</div><!--header-area-->
+<div id="page-area">
+    
+     
+     
+    <div id="articleToolbar" class="clearfix quicksearch prd_sci_dir">
+        <div id="articleNav">
+  <ul aria-label="Article options" role="navigation" class="clearfix">
+    <!-- return to gateway -->
+     
+
+
+
+
+
+
+<li>
+  <div class="icon_pdf toolbar">
+    <div class="largeIcon"></div>
+    <a id="pdfLink" rel="nofollow"   href="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/article/pii/S1568494614006723/pdfft?md5=60deb17300f7d7af14937ea025057495&pid=1-s2.0-S1568494614006723-main.pdf" queryStr="?_origin=article&_zone=toolbar" target="newPdfWin"   pdfurl="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/article/pii/S1568494614006723/pdfft?md5=60deb17300f7d7af14937ea025057495&pid=1-s2.0-S1568494614006723-main.pdf" queryStr="?_origin=article&_zone=toolbar" suggestedArtURL="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/suggestedArt/citeList/pii/S1568494614006723/eid/1-s2.0-S1568494614006723/serial" class="S_C_pdfLink big pdf ext_sdlink cLink" style="cursor:pointer" title="Download PDF" >Download PDF
+    <span id="pdfExplanation" class="offscreen">Opens in a new window.  Article suggestions will be shown in a dialog on return to ScienceDirect.</span>
+    </a>
+  </div>
+</li>
+ 
+ 
+
+
+
+
+
+
+
+<li class="exportPopupListitem">
+<div class="pulldown">
+    <div class="exportDivision" title="Export citations">
+    <div class="exportIconText">
+    <div class="icon_exportarticlesci_dir initialImage export_icon" tabindex="0"> &nbsp; </div>
+    <input id="icon_exportarticle" value="Export" name="export" class="listAction export export_general" tabindex="-1" type="button">
+     <span class="downSM_sci_dir exportArrow"></span>
+    </div>
+    <input class='zone' name='zone' type='hidden' value='exportDropDown'/>
+    </div>
+    <div class="menu export_popup hidden" id="export_popup">
+    <div  class='warningIcon' title="Warning Icon" alt="Warning Icon"></div>
+    <form name="exportCite" method=post action=/science?_ob=DownloadURL&_method=finish&_eidkey=1-s2.0-S1568494614006723&count=1&_docType=FLA&md5=a9e321715eabd22096f42e8796c740d7 target="">
+    <input class='zone' name='zone' type='hidden' value='exportDropDown'/>
+            <script language="javascript" type="text/javascript">
+<!--
+
+function checkExportFormat(limit) {
+
+    var msg = "";
+
+    for (i=0;i<document.exportCite.elements.length;i++) {
+        if (document.exportCite.elements[i].value == "REFWX") {
+            if (document.exportCite.elements[i].checked) {
+                document.exportCite.setAttribute('target',"RefWorksMain");
+                if (checkLimit()) {
+                    if (limit) {
+                        msg = "It is possible that some users may experience problems when downloading large numbers of citations. If this happens please contact RefWorks support at your regionally hosted site or e-mail support@refworks.com to assist you further.\n\n";
+                    }
+                    msg += "Exporting to RefWorks may take some time, please wait....";
+                    alert(msg);
+                }
+            }
+            else {
+                document.exportCite.setAttribute('target',"");
+            }
+            break;
+        }
+    }
+    return true;
+}
+
+function determineCount(numStr) {
+    var count=1;
+
+    if(numStr.indexOf("-")) {
+        var rangeStr = numStr.split("-");
+
+        if(rangeStr.length == 2) {
+            var highNum = parseInt(rangeStr[1]);
+            var lowNum = parseInt(rangeStr[0]);
+
+            if(highNum >= lowNum) { count = (highNum - lowNum) + 1; }
+        }
+    }
+    return count;
+}
+
+function checkLimit(){
+
+    var selectNum = "";
+    var useSelected = false;
+    var allNum = 0;
+    var count = 0;
+    var rdoc = 0;
+
+    for (i=0;i<document.exportCite.elements.length;i++) {
+        if (document.exportCite.elements[i].name == "count") {
+            allNum = document.exportCite.elements[i].value;
+        }
+        if (document.exportCite.elements[i].name == "NUMBER_LIST") {
+            selectNum = document.exportCite.elements[i].value;
+        }
+        if (document.exportCite.elements[i].name == "_rdoc") {
+            rdoc = document.exportCite.elements[i].value;
+        }
+        if (document.exportCite.elements[i].value == "selected") {
+            if (document.exportCite.elements[i].checked) {
+                useSelected = true;
+            }
+        }
+    }
+
+    if (useSelected) {
+        selectNum = selectNum.replace(/ /g,"");
+        if(selectNum.indexOf(",")) {
+            var commaList = selectNum.split(",");
+            for(i=0; i < commaList.length; i++) {
+                count += determineCount(commaList[i]);
+            }
+        }
+        else {
+            count += determineCount(selectNum);
+        }
+    }
+    else { 
+        if (rdoc > 0) {
+            count = 1;
+        }
+        else {
+            count = allNum;
+        }
+    }
+
+    if(count > 50) { return true; }
+  
+    return false;
+}
+
+//-->
+</script>
+
+    <div class="exportInfo">
+        <div class="chkboxCount"></div>
+        <div class="exportHelp">
+            <a target="sdhelp" href="/science?_ob=HelpURL&_file=art_export.htm&_btn=Y&_zone=TopNavBar&_origin=article" title="Help (Opens new window)" onClick="var helpWin; helpWin=window.open('/science?_ob=HelpURL&_file=art_export.htm&_btn=Y&_zone=TopNavBar&_origin=article','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=984,height=738'); helpWin.focus(); return false">Help</a>
+        </div>
+    </div>
+
+    <div class="expContainer">
+      <ul class="Export_Popup" width="100%">
+        <li class="subHeading"><h3> Direct export </h3></li>
+        <li class="direct_export">
+         
+            <div>
+              <div class="btn_export directExport">
+                <div class="icon_Mendeley" title="Save to Mendeley">&nbsp;</div>
+                <input id="directExport" type="button" value="Save to Mendeley" name="Save to Mendeley" alt="Save to Mendeley" class="mendeleyBT button"/>
+              </div>
+            </div>
+        
+        
+            <div class="btnLine">
+              <div class="btn_export refworks">
+                <div class="icon_Refworks" title="Save to RefWorks">&nbsp;</div>
+                <input id="REFWX" type="button" value="Save to RefWorks" name="Save to RefWorks" alt="Save to RefWorks" class="button refworks"/>
+              </div> 
+            </div>
+            <div class="clear"> </div>
+        
+        </li>
+        <li class="subHeading big"> <h3>Export file</h3></li>
+        <li class="export_radio RIS"><input type="radio" id="RIS" checked name="citation-type" value="RIS"  class="artRadio expRadio RIS">&nbsp;<label for="RIS">RIS&nbsp;(for EndNote, Reference Manager, ProCite)</label>
+        </li>
+        <li class="export_radio"><input type="radio" id="BIBTEX" name="citation-type" value="BIBTEX"  class="artRadio expRadio BIBTEX">&nbsp;<label for="BIBTEX">BibTeX</label>
+        </li>
+        <li class="export_radio"><input type="radio" id="ASCII" name="citation-type" value="ASCII"  class="artRadio expRadio ASCII">&nbsp;<label for="ASCII">Text</label>
+        </li>
+        <li class="export_radio hidden"><input type="radio" id="REFWX" name="citation-type" value="REFWX"  class="artRadio expRadio REFWX">&nbsp;<label for="REFWX">RefWorks Direct Export</label>
+        </li>
+        <li class="subHeading big"><h3>Content</h3></li>
+        <li class="expCitab export_radio"><input type="radio" id="cite" class="cite artRadio expRadio" name="format" value="cite" >&nbsp;<label class="cit" for="cite"> Citation Only </label>
+        </li>
+        <li class="expCitab export_radio citab"><input type="radio" id="cite-abs" class="cite-abs artRadio expRadio" name="format" value="cite-abs" checked>&nbsp;<label class="cab" for="cite-abs"> Citation and Abstract </label>
+        </li>
+        <li class="export_submit">
+            <div class="downBtn export_downBtn">
+               <input type="submit" value="Export" name="export" alt="Export" class="button export_button" id="export_button"/>
+            </div> 
+        </li>
+      </ul>
+
+    </div>
+
+
+        
+        
+            
+         
+
+    </form>
+    </div> 
+</div>    
+</li>
+  
+
+
+
+</ul>
+</div>
+
+<div class="sdSearch" aria-label="Quick search" role="search">
+    <fieldset>
+        <div class="left">
+            <form id="quickSearch" name="qkSrch" method="get" target="_top" action="/science">
+            <input type="hidden" name="_ob" value="QuickSearchURL">
+            <input type="hidden" name="_method" value="submitForm">
+            <input type="hidden" name="_acct" value="C000037918">
+            <input type="hidden" name="searchtype" value="a">
+            <input type="hidden" name="_origin" value="article">
+            <input type="hidden" name="_zone" value="qSearch">
+            <input type="hidden" name="md5" value="8ba9f1a3931b617c624dd5be64bc0742">
+            
+            <input  id="quickSearch" type="text" name="qs_all" placeholder="Search ScienceDirect" value="" size="30" maxlength="450" title="Perform a quick search on ScienceDirect"><input type="submit" class="submit" value="" title="Submit quick search"/>
+            
+            <a class="advanced S_C_advanced" href="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/search" >Advanced search</a>
+            </form>
+        </div>
+    </fieldset>
+</div>
+<div class="clear"></div>
+<div id="erToolbar"></div>
+
+
+<div style="color : #FF0000; font-weight : bold;border:0px solid red;">
+  
+  
+  
+  
+</div>
+
+
+
+
+
+        <!-- PDFKING/PDFCITE -->
+        <div id="pdfModalWindow" class="pdfModalWindow" style="display:none;" onClick="pdfCite.closePopup();"></div>
+        <div id="suggestedPdfList" style="display:none;">
+         
+            <div id="suggestedPdfList" style="display: block;" class="newStyles">
+  <div id="modalBoxDisplay" class="nojs" tabindex="0" role="dialog" aria-labelledby="hdSDSuggestions">
+    <div class="pdfModalWindowMsgBox" id="pdfModalWindowMsgBox" >
+	  <div class = "modal" style="-webkit-box-shadow: none; box-shadow: none; margin-left: 12px; margin-right: 12px;">
+        <div id="displayPdfKing" style="display:block;">
+           <form method="get" name="Tag" action="/science/suggestedArt/export" style="padding:0px; margin:0px;" target="">
+            <input type="hidden" name="pdfDownload" value="download">
+            
+                <input type="hidden" name="PDF_DDM_MAX" value=25>
+             
+            <input type="hidden" name="_retainOrder" value="Y">
+            <input class='zone' name='zone' type='hidden' value='DDM'/>
+            <div class="header" style="height: auto; padding-bottom: 20px; background: rgb(255, 255, 255);">
+            <div class="pdfKingHeading" style="display:block;">Other users also viewed these articles
+            <a class="newCloseBtn" id="pdfKingcloseBtn" href = "#" title = "Close Article Suggestions" alt="Close Article Suggestions"><img src="http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/sci_dir/closeButton.png"></a></div></div>
+            <div id="SuggestedArtList" style="min-height: 100px;">
+                <div class="toolBar">
+                <ul class = "group"> 
+                    
+                    <li class="pdfDownloader" style="display: inline-block; padding: 4px 4px 0px 4px; border: 1px solid rgb(201, 201, 201);">
+                        <input value="Download All PDFs" name="pdfDownloadButton" class="listAction iconBg" type="submit" id="multiPdfIcon" aria-describedby="downloadAllPdfAx" style="width:auto; font-size: 14px; color: rgb(49, 108, 157);">
+                        <span class="arrow"></span>
+                        <span id="downloadAllPdfAx" class="hidden" >Opens document download manager</span>
+                    </li>
+                    
+                </ul>
+                </div>
+                
+                <div id="pdfkingContent" style="display:none;">
+                    <div class="popcontent"></div> 
+                    <div id="relatedArtList" data-entitled="Y"></div>
+                </div>
+                
+            </div>
+                
+                <div class="newFooter">
+                <a class = "do-not-show" href="#" onClick="pdfCite.setOptOutFlag('http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/suggestedArt/optOut');" style="cursor: pointer; float: none; line-height: normal;">Do not show again</a>
+                </div>
+          </form>
+        </div>
+        <div id="pdfKingMessage" style="display:none;">
+          <div class="pdfKingHeading" style="display:block;">
+            <span class="downloadMsg">Downloading zip file containing 3 articles...</span>
+            <a class="newCloseBtn" onClick="pdfCite.closePopup();" href = "#" title = "Close Article Suggestions" alt="Close Article Suggestions"><img src="http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/sci_dir/closeButton.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+        </div>
+        <!-- PDFKING/PDFCITE End -->
+    </div>
+    <div id="articleToolbarDummy"></div>
+  <div style="clear:both;"></div>
+  
+  <div id="leftPane" class="column" aria-label="table of contents" role="navigation">
+    <div id="leftPaneInner">
+        <div>
+        <div id="leftButton">
+            <ul>
+                <li class="tocbutton">
+                    <a class="outline-toggle" title="Open to view article outline"  alt="Open to view article outline" href="#" aria-expanded="false">
+                        <span class="icon outline_big"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="outlineContainer">
+            <a class="closeBt" title="Close">&nbsp;</a>
+            <div id="outline" class="outline">
+              <script type="text/javascript">
+              document.write("<div class='outlineMsg'>Article outline is loading...</div>");
+              </script>
+              <noscript>
+              <div class="infoMsg">
+              <div style="float: left; width: 20px; "><img border="0" src="http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/alertIcon.gif" valign="top" alt="Alert message"></div>
+              <div style="padding-left:25px;">JavaScript is disabled on your browser. <br><div style="padding-top:10px;">
+              Please enable JavaScript to use all the features on this page.</div></div>
+              </div>
+              </noscript>
+            </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  <div id="centerPane" class="column">
+    <div class="topBorder"></div>
+    <div id="centerContent" class="centerContent">
+    <div id="centerInner" class="centerInner svBigBox" aria-label="Article" role="main">
+        
+      
+      <noscript>
+      <div class="msgBox" style="margin-top:10px;">
+          <span class="errMsg">
+            <div>JavaScript is disabled on your browser.  Please enable JavaScript to use all the features on this page. This page uses JavaScript to progressively load the article content as a user scrolls. Click the View full text link to bypass dynamically loaded article content. <a rel="nofollow" href="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/article/pii/S1568494614006723?np=y">View full text</a></div>
+         </span>
+      </div><br/>
+      </noscript>
+      <div class="head headTemplate page_fragment_ind">
+
+  
+<div class="publisherLogo">
+  <span class="spElsevierPubIcon"></span>
+</div>
+
+
+  
+    <?xml version="1.0" encoding="UTF-8"?><div xmlns:bk="http://www.elsevier.com/xml/bk/dtd" class="publicationHead"><div class="title"><a title="Go to Applied Soft Computing on ScienceDirect" href="/science/journal/15684946" queryStr="?zone=centerPane" class="cLink"><span>Applied Soft Computing</span></a></div><p class="volIssue"><a class="S_C_volIss" title="Go to table of contents for this volume/issue" href="/science/journal/15684946/29/supp/C">Volume 29</a>, April 2015, Pages 196–210</p></div>
+  
+    <div class="publicationCover cover2">
+    
+      
+    <a queryStr="?zone=publicationLogo" class="cLink" href="/science/journal/15684946/29/supp/C">
+      
+    
+    <img alt="Cover image" src="http://ars.els-cdn.com.ez54.periodicos.capes.gov.br/content/image/1-s2.0-S1568494615X00020-cov150h.gif" class="toprightlogo" />
+    <noscript><img alt="Cover image" src="http://ars.els-cdn.com.ez54.periodicos.capes.gov.br/content/image/1-s2.0-S1568494615X00020-cov150h.gif" class="toprightlogo" /></noscript>
+    </a>
+    
+  </div>
+
+
+</div>
+
+      <div id="frag_1" class="page_fragment auth_frag" data-first="true" data-fid="1"><div class="module_topic_paths"></div><h1 class="svTitle" id="tit0005">A bat-neural network multi-agent system (BNNMAS) for stock price prediction: Case study of DAX stock price</h1><ul class="authorGroup noCollab svAuthor"><li><a href="#" class="authorName svAuthor" data-orcid="0000-0003-0070-3737" id="authname_N8fc04de0N358d9e64" data-t="a" data-fn="Reza" data-ln="Hafezi" data-pos="1" data-tb="">Reza Hafezi</a><a title="Affiliation: a" href="#aff0005" class="intra_ref auth_aff" id="baff0005"><sup>a</sup></a><sup>, </sup><a title="Affiliation: c" href="#aff0015" class="intra_ref auth_aff" id="baff0015"><sup>c</sup></a><sup>, </sup><a href="mailto:r.hafezi@aut.ac.ir" class="auth_mail" title="E-mail the corresponding author"></a>, </li><li><a href="#" class="authorName svAuthor" data-orcid="" id="authname_N8fc04de0N3588286c" data-t="a" data-fn="Jamal" data-ln="Shahrabi" data-pos="2" data-tb="">Jamal Shahrabi</a><a title="Affiliation: b" href="#aff0010" class="intra_ref auth_aff" id="baff0010"><sup>b</sup></a><sup>, </sup><a title="Corresponding author contact information" href="#cor0005" id="bcor0005" class="intra_ref auth_corr"></a><sup>, </sup><a href="mailto:jamalshahrabi@aut.ac.ir" class="auth_mail" title="E-mail the corresponding author"></a>, </li><li><a href="#" class="authorName svAuthor" data-orcid="" id="authname_N8fc04de0N358829d4" data-t="a" data-fn="Esmaeil" data-ln="Hadavandi" data-pos="3" data-tb="">Esmaeil Hadavandi</a><a title="Affiliation: b" href="#aff0010" class="intra_ref auth_aff" id="baff0010"><sup>b</sup></a><sup>, </sup><a href="mailto:es.hadavandi@aut.ac.ir" class="auth_mail" title="E-mail the corresponding author"></a></li></ul><!--VALIDHTML--><ul class="affiliation authAffil"><li id="aff0005"><sup>a</sup> <span id="">Technology Foresight Group, Department of Management, Science and Technology, Amirkabir University of Technology, P.O. Box 15875-4413, Tehran, Iran,</span></li><li id="aff0010"><sup>b</sup> <span id="">Department of Industrial Engineering, Amirkabir University of Technology, P.O. Box 15875-4413, Tehran, Iran</span></li><li id="aff0015"><sup>c</sup> <span id="">Member of Futures Studies Research Institute</span></li></ul><!--VALIDHTML--><!--VALIDHTML--><dl class="articleDates"><dd>Received 14 December 2013, Revised 18 December 2014, Accepted 22 December 2014, Available online 8 January 2015</dd></dl><!--VALIDHTML--><div class="moreInformation"></div><div id="showMoreButtons"></div><div id="ppvPlaceHolder" class="hidden"></div><!--VALIDHTML--><dl class="extLinks"><dd class="doiLink"></dd><dd class="rightsLink"></dd></dl><div class="articleOAlabelForced"></div><div id="refersToAndreferredToBy"><dl id="referredToBy" class="documentThread"><!--Referred To By--></dl></div><!--FRAGMENTEND--><div class="page_fragment_ind auth_frag" data-id="frag_2"></div></div><div id="frag_2" class="page_fragment" data-fid="2"><script>prs.rt("abs_1st_beg");</script><!--VALIDHTML--><hr id="abs_authorabs00101" class="artHeader"><div class="abstract svAbstract " data-etype="ab"><h2 class="secHeading" id="authorabs00101">Abstract</h2><p id="spar0010">Creating an intelligent system that can accurately predict stock price in a robust way has always been a subject of great interest for many investors and financial analysts. Predicting future trends of financial markets is more remarkable these days especially after the recent global financial crisis. So traders who access to a powerful engine for extracting helpful information throw raw data can meet the success. In this paper we propose a new intelligent model in a multi-agent framework called bat-neural network multi-agent system (BNNMAS) to predict stock price. The model performs in a four layer multi-agent framework to predict eight years of DAX stock price in quarterly periods. The capability of BNNMAS is evaluated by applying both on fundamental and technical DAX stock price data and comparing the outcomes with the results of other methods such as genetic algorithm neural network (GANN) and some standard models like generalized regression neural network (GRNN), etc. The model tested for predicting DAX stock price a period of time that global financial crisis was faced to economics. The results show that BNNMAS significantly performs accurate and reliable, so it can be considered as a suitable tool for predicting stock price specially in a long term periods.</p></div><!--VALIDHTML--><hr id="absgraphicalabs00051" class="artHeader"><div class="abstract svAbstract" data-etype="ab"><h2 class="secHeading" id="section_gabs">Graphical abstract</h2><div id="spar0005"><p></p></div><div class="figTblUpiOuter svArticle" id="figure_fig0070"><div class="&#10;                    textboxdefault&#10;                "><dl class="figure" id="fig0070" data-t="f"><dt class="autoScroll"><a class="figureLink" href="#fx1" title="Image for unlabelled figure"><img class="imgLazyJSB figure large" id="gabsImg" border="0" alt="Image for unlabelled figure" data-gabsEID="1-s2.0-S1568494614006723-fx1.jpg" height="200" width="161" src="/sd/grey_pxl.gif" data-thumbEID="1-s2.0-S1568494614006723-fx1.sml" data-thumbheight="164" data-thumbwidth="132" data-fullheight="200" data-fullwidth="161"><noscript><img class="figure large" id="gabsImg" border="0" alt="Image for unlabelled figure" src="http://origin-ars.els-cdn.com.ez54.periodicos.capes.gov.br/content/image/1-s2.0-S1568494614006723-fx1.jpg" data-thumbEID="1-s2.0-S1568494614006723-fx1.sml"></noscript></a></dt><dd id="labelCaptionfig0070"><div class="caption"><!--caption--></div></dd><dd class="menuButtonLinks"><div class="btnHolder"><a class="menuTitle" href="#">Figure options</a><div class="down_Btn"></div></div><ul class="menuButton"><li><a class="S_C_full_size" data-src="/science?_ob=MiamiCaptionURL&amp;_method=retrieve&amp;_eid=1-s2.0-S1568494614006723&amp;_image=1-s2.0-S1568494614006723-fx1.jpg&amp;_cid=272229&amp;_explode=defaultEXP_LIST&amp;_idxType=defaultREF_WORK_INDEX_TYPE&amp;_alpha=defaultALPHA&amp;_ba=&amp;_rdoc=1&amp;_fmt=FULL&amp;_issn=15684946&amp;_pii=S1568494614006723&amp;md5=89cbbe4d9e5360d0d9d36cb31ff3fb77" data-label="labelCaptionfig0070" data-ref="" data-format="S1568494614006723" href="#fx1" title="View full-size image - Opens in new window">Download full-size image</a></li><li><a class="ppt S_C_ppt" title="Download as PowerPoint slide" href="http://services.elsevier.com/SDWebExport/export/figure/S1568494614006723/1-s2.0-S1568494614006723-fx1.jpg/ppt">Download as PowerPoint slide</a></li></ul></dd></dl></div></div></div><!--VALIDHTML--><h2 id="kwd_1" class="svKeywords">Keywords</h2><ul class="keyword" id="kwd0005"><li id="kw0005" class="svKeywords"><span id="">Stock price prediction</span>; </li><li id="kw0010" class="svKeywords"><span id="">Bat algorithm</span>; </li><li id="kw0015" class="svKeywords"><span id="">Artificial neural network</span>; </li><li id="kw0020" class="svKeywords"><span id="">Multi-agent system</span>; </li><li id="kw0025" class="svKeywords"><span id="">Fundamental analysis</span>; </li><li id="kw0030" class="svKeywords"><span id="">DAX stock price</span></li></ul><!--VALIDHTML--><div id="embeddedPDF" style="display:none"></div><script>prs.rt("abs_end");</script><div id="SD_BA1P" class="sgfNoTitleBar sgfNoGadgetBorder svDoNotLink"></div><!--VALIDHTML--><hr class="artHeader"><h2 class="svArticle" id="sec0005">1. Introduction</h2><p class="svArticle section clear" id="par0005">Creating an intelligent system that can accurately predict stock price in a robust way has always been a subject of great interest for many investors and financial analysts. However, the stock market domain is dynamic and unpredictable <span id="bbib0270"><a href="#bib0270" id="ancbbib0270" class="intra_ref">[1]</a></span>. It is not a secret that stock market movements are reactive to external and internal factors as political, economic and even social <a href="#bib0275" id="bbib0275" class="intra_ref">[2]</a>&#xA0;and&#xA0;<a href="#bib0280" id="bbib0280" class="intra_ref">[3]</a> so stock market prediction can be classified under complex systems.</p><!--VALIDHTML--><p class="svArticle section clear" id="par0010">Complex system is an approach to study how the subsystems of a system interact with each other and how the whole system interacts and manages relationships with its environment. In modeling such complex systems (like ours), difficulties have already faced during designing a robust model and selecting its architecture <span id="bbib0285"><a href="#bib0285" id="ancbbib0285" class="intra_ref">[4]</a></span>. To dealing with this problem we chose to design our complex system under multi-agent framework described below.</p><!--VALIDHTML--><p class="svArticle section clear" id="par0015">A multi-agent based system is a combination of autonomous decision makers named agents that communicate with each other under prescribed rules. An agent is a software program which is capable of autonomous action within its environment in order to meet its design objectives <span id="bbib0290"><a href="#bib0290" id="ancbbib0290" class="intra_ref">[5]</a></span> and accordingly a multi-agent system is a set of interacted agents suited to solve a problem in a distributed manner. Multi-agent systems have autonomy integration, reactivity and flexibility capabilities <span id="bbib0285"><a href="#bib0285" id="ancbbib0285" class="intra_ref">[4]</a></span>. A multi-agent based paradigm is therefore considered to be well suited to explaining and understanding the phenomena associated with the complex phenomena of financial system <span id="bbib0290"><a href="#bib0290" id="ancbbib0290" class="intra_ref">[5]</a></span>. Stock market prediction is a distributed problem means that it is a combination of independent subtasks performs specific functions to achieve the global goal which is predicting price accurately.</p><!--VALIDHTML--><p class="svArticle section clear" id="par0020">The most important part of a multi-agent system is the artificial intelligent section. In our research we chose data mining, function approximation and knowledge discovery to handle this role.</p><!--VALIDHTML--><p class="svArticle section clear" id="par0025">A wide range of computer based evolutionary algorithms exist that can be applied for this objectives such as classifier systems, feature selection algorithms (FS), genetic algorithm (GA), genetic programming (GP), artificial neural network (ANN), fuzzy inference systems, etc. In our proposed model we used feature selection and time lag selection for data preprocessing phase and a hybrid bat-neural network (BNN) model for the function approximation phase. Khan and Sahai showed that using bat algorithm (BA) for optimizing neural network weights performs better than some well-known models such as GA, PSO (particle swarm optimization) and BP (back propagation) and LM (Levenberg&ndash;Marquardt algorithm) <span id="bbib0295"><a href="#bib0295" id="ancbbib0295" class="intra_ref">[6]</a></span>.</p><!--VALIDHTML--><p class="svArticle section clear" id="par0030">For data oriented problems such as stock market prediction, data quality is a key factor. In the literature there are two important indicators for prediction stock price including fundamental analysis and technical analysis. Fundamental analysis uses the information in company financial statements, national financial position and even some international factors such as oil price, gold price, etc. Technical analysts believe that stock price changes generally are driving from prices and volume data <a href="#bib0300" id="bbib0300" class="intra_ref">[7]</a>&#xA0;and&#xA0;<a href="#bib0305" id="bbib0305" class="intra_ref">[8]</a>. Technical analysis gives a framework for studying investors behaviors, however fundamental analysis provides a mechanism to evaluate company's financial health. In addition fundamental analysis can be extended to other factors like geopolitical factors of influence, other economic data that is release by the government and news <span id="bbib0275"><a href="#bib0275" id="ancbbib0275" class="intra_ref">[2]</a></span>. To utilizing the benefit of both kind of analysis we used fundamental and technical data sets simultaneously.</p><!--VALIDHTML--><p class="svArticle section clear" id="par0035">Another important factor for this kind of financial problems is time lag selection that known as Takens theorem, states that for a wide class of deterministic systems there exist a one to one mapping between past <em>y</em>(<em>t</em>&#xA0;&minus;&#xA0;1), <em>y</em>(<em>t</em>&#xA0;&minus;&#xA0;2),&hellip;, <em>y</em>(<em>t</em>&#xA0;&minus;&#xA0;<em>d</em>) of time series and the state of the system at time <em>y</em>(<em>t</em>)  <span id="bbib0310"><a href="#bib0310" id="ancbbib0310" class="intra_ref">[9]</a></span>.</p><!--VALIDHTML--><p class="svArticle section clear" id="par0040">However in this research we emphasized on promoting the stock price prediction accuracy using the hybrid bat neural network (BNN) intelligence system combining the variables of technical and fundamental analysis considering the data time lags.</p><!--VALIDHTML--><p class="svArticle section clear" id="par0045">The rest of the paper is organized as follows. Section <span id="bsec0010"><a href="#sec0010" id="ancbsec0010" class="intra_ref">2</a></span> presents a review of related works. Section <span id="bsec0015"><a href="#sec0015" id="ancbsec0015" class="intra_ref">3</a></span> describes architecture of proposed model. Section <span id="bsec0095"><a href="#sec0095" id="ancbsec0095" class="intra_ref">4</a></span> demonstrates the experimental results. This paper concluded in Section <span id="bsec0120"><a href="#sec0120" id="ancbsec0120" class="intra_ref">5</a></span>.</p><!--VALIDHTML--><div class="page_fragment_ind" data-id="frag_3"></div><script>prs.rt("abs_1st_end");</script></div>
+
+               
+
+       
+   
+        
+    </div>
+    <div id="footer-area-dummy"></div>
+	
+        <div id="footer-area" aria-label="product support" role="contentinfo">
+		    <div id="sdFoot">
+                <div id="footer" aria-label="Footer" role="navigation">	
+  <div class="bottomArticle"></div>
+  <div class="padding">
+    <div id="linkArea">
+      <div class="padding links">
+        <div style="float:left;width:0;height:1px;"></div>
+        <div id="banner-bottom">
+          <a class="S_C_aboutElsevier" href="http://www.elsevier.com" target="_blank" title="Elsevier homepage (opens in a new window)"></a>
+        </div>
+        <ul class="col5">
+<li><a target="_blank" href="http://www.elsevier.com/solutions/sciencedirect">About ScienceDirect</a></li>
+</ul>
+<ul class="col5">
+<li> <a target="_blank" href="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/contactus">Contact and support</a></li>
+</ul>
+<ul class="col5">
+<li><a target="_blank" href="http://www.elsevier.com/locate/termsandconditions?utm_source=sciencedirect&utm_medium=link&utm_campaign=terms">Terms and conditions</a></li>
+</ul>
+<ul class="col5">
+<li><a target="_blank" href="http://www.elsevier.com/privacypolicy?utm_source=sciencedirect&utm_medium=link&utm_campaign=privacy">Privacy policy</a></li>
+</ul>
+        <div class="clear"></div>
+        <!-- CSAS will be providing the links-->
+      </div>
+      <div class="padding copyright">
+	<hr/>
+        Copyright &copy; 2016 Elsevier B.V. or its licensors or contributors. ScienceDirect&reg; is a registered trademark of Elsevier B.V.
+      </div>
+      <div class="padding" style="padding-bottom:4px;font-size:11px;">
+              Cookies are used by this site. To decline or learn more, visit our <a href="https://www.elsevier.com/solutions/sciencedirect/support/cookies" target="_blank">Cookies</a> page.
+        </div> 
+      
+        
+          <div class="padding links">
+            <div id="goToggleSite"><a class="mLink" site='Mobile' ckNm='Site' lnkOrg='article' lnkZn='footer' href='#'>Switch to Mobile Site</a></div>
+          </div>
+	  <form id="pgReload" method="get" action=""></form>
+        
+      
+    </div>
+  </div>
+</div> <!--footer-->
+
+            </div><!--sdFooter-->
+        </div><!--footer-area-->
+	
+    </div>
+ </div>
+ <div id="rightPane" class="column" aria-label="Related content" role="complementary">
+  <div id="rightOuter" class="rightOuter">
+    <div id="rightInner" class="rightInner">
+       <div class="innerPadding">
+
+    <div id="SD_BIB" class="hidden entry separator appBox sgfNoTitleBar sgfNoGadgetBorder"></div>
+ 
+
+    
+    
+        <div id="recommend_related_articles" class="entry separator related closed">
+            
+                <h2><a href="#articles" class="toggle" aria-controls="relArtList" aria-expanded="false"><span class="iconArrow">&nbsp;</span>Recommended articles</a></h2>
+             
+             <ol id="relArtList"><li class="note"><p>No articles found.</p></li></ol>
+        </div>
+    
+    
+    
+        <div id="cited_by_articles" class="entry separator related closed">
+            <h2><a href="#articles" class="toggle" aria-controls="relArtList" aria-expanded="false"><span class="iconArrow">&nbsp;</span>Citing articles (<span id="hitcount">0</span>)</a></h2>
+            <ol id="citedByList"><li class="note"><p>This article has not been cited.</p></li></ol> 
+        </div>
+    
+    
+    
+        <div id="SD_CRA" class="hidden entry separator appBox sgfNoTitleBar sgfNoGadgetBorder"></div>  
+    
+    
+        
+            <div id="related_book_content" class="entry separator related closed">
+                <h2><a href="#articles" class="toggle" aria-controls="relArtList" aria-expanded="false"><span class="iconArrow">&nbsp;</span>Related book content</a></h2>
+                <ol id="relBkList"><li class="note" style="margin-left:15px;"><p>No articles found.</p></li></ol>
+            </div>
+        
+     
+     
+
+
+
+    
+        <div class="appContainerDummy"></div>
+        <div class="appContainer js_application_content">
+            <ul class="hidden" id="dataRepHolder"></ul>
+            
+                <div id="SD_AT1P" class="boxLink sgfNoTitleBar sgfNoGadgetBorder"></div>
+            
+
+            
+                <div id="SD_FTA1" class="boxLink sgfHorToolbar sgfShowMyApps sgfShowMoreLessApps"></div>
+            
+        </div>
+    
+
+
+</div>
+
+<div class="js_workspace_content popup" aria-live="polite" role="region" aria-label="Overlay" aria-describedby="skuip-3">
+    <a aria-label="close overlay" title="close overlay" alt="close overlay" href="#" id="buttonClose" role="button" class="closeBt">&nbsp;</a>
+    <div class="scrollArea"><div id="workSpaceView"></div></div>
+</div>
+
+    </div><!--rightInner-->
+  </div><!--rightOuter-->
+ </div><!--rightPane-->
+</div><!--page-area-->
+
+
+
+<div style="clear:both;"></div>
+
+<form name="citationInfo" id ="citationInfo" method="POST" action="">
+    <input type="hidden" name="art_citation" value=""/>
+</form>
+
+
+<script src="http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/js/sdX_1603R8.js"></script>
+
+
+
+
+<script src="http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/js/sd_1603R8.js"></script>
+
+
+
+<script src="http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/js/pa_1603R8.js"></script>
+
+
+<script>
+var sciverse="empty";
+var SDM=new Object;
+SDM.tm=new Object;
+SDM.tm.ahm='h'
+
+
+
+SDM.ep=new Object;
+SDM.ep.downloadCsvURL = "http://services.elsevier.com/SDWebExport/export/table/csv";
+SDM.ep.downloadActionURL = "http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/downloadActions/keyEvent/S1568494614006723/15684946";
+SDM.ep.gigyaLib="//cdn.gigya.com/JS/socialize.js?apiKey=3__Bt7bHrGM8mjKPwBuOVjWyMi678aF6-PewcnoHJJ6UR1fS5t9NG9RBbKHjE0oA6J";
+SDM.ep.imgUrlPrefix = "http://ars.els-cdn.com.ez54.periodicos.capes.gov.br/content/image/";
+SDM.ep.thumbimgUrlPrefix = "http://ars.els-cdn.com.ez54.periodicos.capes.gov.br/content/thumbimage/";
+SDM.ep.mendeleyJS = "https://www.mendeley.com/minified/bookmarklet.js";
+SDM.ep.enableUsabillaMsg = "Y";
+SDM.ep.prDevice = "http://pa.elsevier.com";
+SDM.ep.pru = "http://pa.elsevier.com";
+SDM.ep.ref2ref2by = "http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/relLink/ajaxReq?_eid=1-s2.0-S1568494614006723";
+SDM.ep.staticImgUrlPrefix = "http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd";
+SDM.ep.urlPrefix = "http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science";
+SDM.ep.urlQualifier = "science";
+SDM.ep.urlScheme = "http://www-sciencedirect-com.ez54.periodicos.capes.gov.br";
+SDM.ep.userActionURL = "http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/UserActions";
+ SDM.helpUrlDomain="http://help.sciencedirect.com.ez54.periodicos.capes.gov.br/flare"; 
+
+
+
+
+SDM.pm=new Object;
+SDM.pm.cid = '272229';
+SDM.pm.contentFamily = "serial";
+SDM.pm.contentType = "JL";
+SDM.pm.coverDate = '30-Apr-2015';
+
+SDM.pm.doi = '10.1016/j.asoc.2014.12.028';
+
+SDM.doi = '10.1016/j.asoc.2014.12.028';
+SDM.pm.eid = '1-s2.0-S1568494614006723';
+SDM.pm.entitled = true;
+ SDM.pm.hubEid = '1-s2.0-S1568494615X00020'; 
+SDM.pm.indexType = '';
+SDM.pm.issnisbn = "15684946";
+
+SDM.pm.itemWeight = 'FULL-TEXT';
+SDM.pm.mod_cid="";
+SDM.pm.mod_srcTitle="";
+SDM.pm.mod_ISBN = "";
+SDM.pm.pdfEid = '1-s2.0-S1568494614006723-main.pdf';
+SDM.pm.pdfSize = '4073714';
+SDM.pm.pii = 'S1568494614006723';
+SDM.pm.prodColor="sci_dir";if(SDM.pm.prodColor=="sci_dir")SDM.pm.prodColor="";
+ SDM.pm.rev = '20150515T064446626495'; 
+ SDM.pm.hrev = 'vH.11'; 
+ SDM.pm.pptURL = 'http://services.elsevier.com/SDWebExport/export/figure/'; 
+
+
+
+
+
+
+
+SDM.pf = new Object;
+SDM.pf.pdfAvail = true;
+SDM.pf.reqAllFrags = true;
+ SDM.pf.maxElemsAllFrags = 12000
+SDM.pf.relatedBkAvail=true;
+SDM.pf.mlktAvail = true;
+SDM.pf.hpccAvail = true;
+SDM.pf.blkSocialLogins=true;
+
+
+SDM.browserUserMsg=true;
+
+
+SDM.pf.citedByScAvail = true;
+SDM.pf.aetEnabled = false;
+ SDM.pf.suggestedArtPDFMaxWait="2000";
+ SDM.pf.pdfMenuAvail=false; 
+
+
+SDM.pf.ads = new Object;
+
+
+
+
+
+SDM.pf.dc = new Object;
+SDM.pf.dc.retry = 10;
+SDM.pf.dc.retryDelay = 300;
+SDM.pf.dc.retryFactor = 1.0;
+SDM.pf.dc.respObj = '';
+
+
+SDM.pf.er = new Object();
+
+
+
+
+
+
+SDM.pf.frag = new Object();
+SDM.pf.frag.fat = '15c6e8814bdf03f2677bb11e74e5b3a2862758382a85847926326b776bcd38a428a24545614aacc7cc8cd1e27212233264b3accd938e3f4fbd251c8ee7d4f15cd131bf9aca318e0dde63069217dd95d73aeea10f9930ef7b8af1a2c8c84fc2da31de6ae16c201be92c22f3a1d3261dda2690eaaa3b542b8ef9873c62cccea585a0bf1b26b0370ccf8d48288640f96f46b3ce26296d3d79d5';
+SDM.pf.frag.mapRetry = 20;
+SDM.pf.frag.mapRetryDelay = 2000;
+SDM.pf.frag.mapRetryFactor = 1.1;
+SDM.pf.frag.retry = 5;
+SDM.pf.frag.retryDelay = 2000;
+SDM.pf.frag.foldFactor = 1.5;
+SDM.pf.frag.hashWait = 5000;
+
+
+
+SDM.pf.crossMark = new Object();
+SDM.pf.crossMark.url = "http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/crossMark";
+
+SDM.pf.crossMark.lib = "http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/js/crossmark_1603R8.js.min";
+
+
+
+
+
+SDM.pf.gadget = new Object();
+SDM.pf.gadget.displayGadgets=true;
+SDM.pf.gadget.sciverseUrlPfx="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br";
+SDM.pf.gadget.sciverseJsonObject='';
+SDM.pf.gadget.sciverseGadgetDetailsID = "";
+SDM.pf.gadget.svShindigLib="http://sciverse-shindig.elsevier.com.ez54.periodicos.capes.gov.br/gadgets/js/shindig-container:pubsub-2.js?c=1";
+SDM.pf.gadget.svSciverseLib="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/gadgetservices/gadgets/v9/js/SciverseShindigService,GadgetToolBar,jquery-outside,jquery.ba-bbq.min,SciverseShindigContainer,ScienceDirectShindigServices.js";
+
+
+
+SDM.pf.mrwmod = new Object();
+SDM.pf.mrwmod.breadCrumbPathURL = "http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/module/breadCrumbPaths/isbn//pii/S1568494614006723";
+
+SDM.pf.mrwmod.ldrAvail = true;
+
+
+ 
+
+
+SDM.pf.oa = new Object();
+
+
+
+
+
+
+
+
+SDM.pf.ref = new Object();
+SDM.pf.ref.bs = 20;
+SDM.pf.ref.citedByURL = "http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/referenceResolution/ajaxRefResol?_updateCitedBy=";
+SDM.pf.ref.fd = 300;
+
+SDM.pf.ref.resolveURL = "http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/referenceResolution/ajaxRefResol?_pii=S1568494614006723&_refCnt=53&_docType=article";
+
+
+
+
+
+SDM.pf.toc=new Object;
+SDM.pf.toc.retry = 20;
+SDM.pf.toc.retryDelay = 1000;
+SDM.pf.toc.retryFactor = 1.09;
+SDM.pf.toc.outlineGraphics = false;
+SDM.pf.toc.outlineTab = "";
+
+SDM.pf.toc.urlTOCLink="http://www-sciencedirect-com.ez54.periodicos.capes.gov.br/science/article/pii/S1568494614006723";
+SDM.pf.toc.urlTOCLinkQueryStr="?_rdoc=1&_fmt=full&_origin=&md5=22543fb95e34d36391c44b9d9cd72533";
+
+SDM.pf.ddm = new Object();
+SDM.pf.ddm.endpoint = "http://services.elsevier.com/SDWebExport/export/pdfdownload/pdf";
+
+
+
+
+
+
+SDM.si = new Object();
+SDM.si.webUserId = "687355";
+SDM.si.sds = "e78734a97759fbcee6e3a4f9310d53c4e8e7aff78a0f0315411f1202649a8fc9c997cae9d0b3ebdb6baf775469b8e5a0";
+SDM.si.euidCookieObject='23cdd0d6cc02d93bddbbd2e0a3086fb68b57ae24516dea8df0bf8213c0fec169d53118ad72e8bb70';
+
+SDM.pageTransKey = "04/06/2016 19:00:57 EDT#1848_001#71078#200.130.19.182";
+SDM.pageType = "article_full";
+SDM.tid = "6c1c64e8-fc4b-11e5-b6dd-00000aab0f27";
+SDM.ud = "687355|<SAInfo><SAId>62526</SAId><SAName>CAPES Consortium Usage</SAName><SANum>S000062526</SANum></SAInfo><SAInfo><SAId>61528</SAId><SAName>CAPES Consortium 3</SAName><SANum>S000061528</SANum></SAInfo>|C000037918|55773|IPRANGE";
+SDM.ieVersion="8";
+
+SDM.dac = new Object;
+SDM.svapi = SVApi;
+
+</script>
+
+
+<script src="http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/js/importer-api_1603R8.js.min"></script>
+
+
+<script>
+
+initializeArticlePage();
+</script>
+
+
+
+
+<script type="text/javascript">/*{literal}<![CDATA[*/window.lightningjs||function(c){function g(b,d){d&&(d+=(/\?/.test(d)?"&":"?")+"lv=1");c[b]||function(){var i=window,h=document,j=b,g=h.location.protocol,l="load",k=0;(function(){function b(){a.P(l);a.w=1;c[j]("_load")}c[j]=function(){function m(){m.id=e;return c[j].apply(m,arguments)}var b,e=++k;b=this&&this!=i?this.id||0:0;(a.s=a.s||[]).push([e,b,arguments]);m.then=function(b,c,h){var d=a.fh[e]=a.fh[e]||[],j=a.eh[e]=a.eh[e]||[],f=a.ph[e]=a.ph[e]||[];b&&d.push(b);c&&j.push(c);h&&f.push(h);return m};return m};var a=c[j]._={};a.fh={};a.eh={};a.ph={};a.l=d?d.replace(/^\/\//,(g=="https:"?g:"http:")+"//"):d;a.p={0:+new Date};a.P=function(b){a.p[b]=new Date-a.p[0]};a.w&&b();i.addEventListener?i.addEventListener(l,b,!1):i.attachEvent("on"+l,b);var q=function(){function b(){return["<head></head><",c,' onload="var d=',n,";d.getElementsByTagName('head')[0].",d,"(d.",g,"('script')).",i,"='",a.l,"'\"></",c,">"].join("")}var c="body",e=h[c];if(!e)return setTimeout(q,100);a.P(1);var d="appendChild",g="createElement",i="src",k=h[g]("div"),l=k[d](h[g]("div")),f=h[g]("iframe"),n="document",p;k.style.display="none";e.insertBefore(k,e.firstChild).id=o+"-"+j;f.frameBorder="0";f.id=o+"-frame-"+j;/MSIE[ ]+6/.test(navigator.userAgent)&&(f[i]="javascript:false");f.allowTransparency="true";l[d](f);try{f.contentWindow[n].open()}catch(s){a.domain=h.domain,p="javascript:var d="+n+".open();d.domain='"+h.domain+"';",f[i]=p+"void(0);"}try{var r=f.contentWindow[n];r.write(b());r.close()}catch(t){f[i]=p+'d.write("'+b().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};a.l&&setTimeout(q,0)})()}();c[b].lv="1";return c[b]}var o="lightningjs",k=window[o]=g(o);k.require=g;k.modules=c}({});
+window.usabilla_live = lightningjs.require("usabilla_live", "//w.usabilla.com/14bb862cc5c4.js");
+/*]]>{/literal}*/
+if(typeof SDM != "undefined") {
+  if(SDM.ud) { usabilla_live("data", {"custom": {"ud":SDM.ud} }); }
+  if(SDM.pf&&SDM.pf.oa) {
+    if(SDM.pf.oa.item) { usabilla_live("data", {"custom": {"open_access":SDM.pf.oa.item} });}
+    if(SDM.pf.oa.archive) { usabilla_live("data", {"custom": {"open_archive":SDM.pf.oa.archive} });}
+  }
+}
+</script>
+
+
+<div id="sdpa"></div>
+<script>SDPA.init();</script>
+<div id="appBackground"></div>
+<div id="appDialog" class="files">
+    <div id="header">
+     <div class="pdfSearchHeading"> Download PDFs
+    <span class="close" id="closeBtn" href = "#" title = "Close Search Results " alt="Close Search Results"><img src="http://cdn.els-cdn.com.ez54.periodicos.capes.gov.br/sd/sci_dir/closeButton.png"></span>
+    </div></div>
+    <div id="contentBlk" class="view">
+        <div class="help_button" id="ddmMainHelp"><a class="ddmHelp" target="sdhelp" href="/science?_ob=HelpURL&_file=DM_main.htm&_btn=Y&_zone=TopNavBar&_origin=article" title="Help (Opens new window)" onClick="var helpWin; helpWin=window.open('/science?_ob=HelpURL&_file=DM_main.htm&_btn=Y&_zone=TopNavBar&_origin=article','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=984,height=738'); helpWin.focus(); return false">Help</a></div>
+        <div class="help_button" id="ddmNewformatHelp"><a class="ddmHelp" target="sdhelp" href="/science?_ob=HelpURL&_file=DM_newformat.htm&_btn=Y&_zone=TopNavBar&_origin=article" title="Help (Opens new window)" onClick="var helpWin; helpWin=window.open('/science?_ob=HelpURL&_file=DM_newformat.htm&_btn=Y&_zone=TopNavBar&_origin=article','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=984,height=738'); helpWin.focus(); return false">Help</a></div>
+        <div id="filesTemplate"></div>
+        <div id="namingTemplate"></div> 
+    </div>
+    <div class="footer"></div>
+</div>
+
+
+
+
+
+<script src="//assets.adobedtm.com/376c5346e33126fdb6b2dbac81e307cbacfd7935/satelliteLib-b7cfe8df39a4e5eec5536bba80e13f4b6fa0dd7c.js"></script>
+<script>
+
+
+var pageData=new Object;
+
+var page=new Object;
+page["businessUnit"]="ELS:RAP:ST";
+page["isProduction"]="true";
+page["language"]="en";
+page["name"]="product:journal:article";
+page["productName"]="SD";
+page["environment"]="prod";
+page["noTracking"]="false";
+page["loadTime"]="";
+page["loadTimestamp"]=Date.now().toString();
+page["type"]="CP-CA";
+pageData["page"]=page;
+
+var visitor=new Object;
+visitor["accessType"]="CSAS:CSAS-STYLE-A:ANON-IP:ONLINE_REGISTERED";
+visitor["accountId"]="ae:37918";
+
+  visitor["consortiumId"]="ae:S000062526";
+
+visitor["industry"]="";
+visitor["ipAddress"]="200.130.19.182";
+visitor["loginStatus"]="";
+visitor["sisId"]="";
+visitor["userId"]="ae:687355";
+pageData["visitor"]=visitor;
+
+try { pageDataTracker.trackPageLoad(); }
+catch(e) { console.warn("There was an error loading or running Adobe DTM:\r\n ", e); }
+</script>
+
+
+</body></html>
+
